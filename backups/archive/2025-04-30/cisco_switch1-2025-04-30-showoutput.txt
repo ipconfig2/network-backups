@@ -8,7 +8,7 @@ Compiled Tue 29-Sep-20 11:53 by sweickge
 
 ROM: Bootstrap program is IOSv
 
-SW1 uptime is 3 hours, 19 minutes
+SW1 uptime is 3 hours, 23 minutes
 System returned to ROM by reload
 System image file is "flash0:/vios_l2-adventerprisek9-m"
 Last reload reason: Unknown reason
@@ -93,12 +93,12 @@ GigabitEthernet0/0 is up, line protocol is up (connected)
   Output queue: 0/40 (size/max)
   5 minute input rate 1000 bits/sec, 2 packets/sec
   5 minute output rate 3000 bits/sec, 2 packets/sec
-     5658 packets input, 471281 bytes, 0 no buffer
+     6249 packets input, 513932 bytes, 0 no buffer
      Received 0 broadcasts (0 IP multicasts)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     6889 packets output, 1018446 bytes, 0 underruns
+     7506 packets output, 1115784 bytes, 0 underruns
      0 output errors, 0 collisions, 5 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -125,7 +125,7 @@ GigabitEthernet0/1 is up, line protocol is up (connected)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     6951 packets output, 508098 bytes, 0 underruns
+     7091 packets output, 518172 bytes, 0 underruns
      0 output errors, 0 collisions, 2 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -152,7 +152,7 @@ GigabitEthernet0/2 is up, line protocol is up (connected)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     6949 packets output, 507294 bytes, 0 underruns
+     7090 packets output, 517770 bytes, 0 underruns
      0 output errors, 0 collisions, 2 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -179,7 +179,7 @@ GigabitEthernet0/3 is up, line protocol is up (connected)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     6950 packets output, 507696 bytes, 0 underruns
+     7090 packets output, 517770 bytes, 0 underruns
      0 output errors, 0 collisions, 2 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -206,7 +206,7 @@ GigabitEthernet1/0 is up, line protocol is up (connected)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     6950 packets output, 507696 bytes, 0 underruns
+     7090 packets output, 517770 bytes, 0 underruns
      0 output errors, 0 collisions, 2 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -233,7 +233,7 @@ GigabitEthernet1/1 is up, line protocol is up (connected)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     6950 packets output, 507696 bytes, 0 underruns
+     7091 packets output, 518172 bytes, 0 underruns
      0 output errors, 0 collisions, 2 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -260,7 +260,7 @@ GigabitEthernet1/2 is up, line protocol is up (connected)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     6949 packets output, 507294 bytes, 0 underruns
+     7090 packets output, 517770 bytes, 0 underruns
      0 output errors, 0 collisions, 2 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -287,7 +287,7 @@ GigabitEthernet1/3 is up, line protocol is up (connected)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     6950 packets output, 507696 bytes, 0 underruns
+     7091 packets output, 518172 bytes, 0 underruns
      0 output errors, 0 collisions, 2 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -312,7 +312,7 @@ Vlan1 is up, line protocol is up
      Received 0 broadcasts (0 IP multicasts)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
-     31 packets output, 2454 bytes, 0 underruns
+     34 packets output, 2700 bytes, 0 underruns
      0 output errors, 0 interface resets
      0 unknown protocol drops
      0 output buffer failures, 0 output buffers swapped out
@@ -336,7 +336,7 @@ Entry address(es):
   IP address: 192.168.3.1
 Platform: Cisco ,  Capabilities: Router Source-Route-Bridge 
 Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet0/3
-Holdtime : 133 sec
+Holdtime : 173 sec
 
 Version :
 Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.9(3)M6, RELEASE SOFTWARE (fc1)
@@ -387,11 +387,11 @@ Vlan    Mac Address       Type        Ports
 ############# show arp ###########
 Protocol  Address          Age (min)  Hardware Addr   Type   Interface
 Internet  192.168.2.2             -   5000.0003.8001  ARPA   Vlan1
-Internet  192.168.3.1           198   5000.0001.0003  ARPA   GigabitEthernet0/0
+Internet  192.168.3.1           202   5000.0001.0003  ARPA   GigabitEthernet0/0
 Internet  192.168.3.2             -   5000.0003.0000  ARPA   GigabitEthernet0/0
 
 ############# show clock ###########
-*15:56:43.365 UTC Wed Apr 30 2025
+*16:00:38.991 UTC Wed Apr 30 2025
 
 ############# show users ###########
 Line       User       Host(s)              Idle       Location
