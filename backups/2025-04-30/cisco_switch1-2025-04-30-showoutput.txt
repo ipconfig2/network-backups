@@ -8,7 +8,7 @@ Compiled Tue 29-Sep-20 11:53 by sweickge
 
 ROM: Bootstrap program is IOSv
 
-SW1 uptime is 1 hour, 34 minutes
+SW1 uptime is 1 hour, 37 minutes
 System returned to ROM by reload
 System image file is "flash0:/vios_l2-adventerprisek9-m"
 Last reload reason: Unknown reason
@@ -93,12 +93,12 @@ GigabitEthernet0/0 is up, line protocol is up (connected)
   Output queue: 0/40 (size/max)
   5 minute input rate 2000 bits/sec, 2 packets/sec
   5 minute output rate 2000 bits/sec, 2 packets/sec
-     3816 packets input, 304347 bytes, 0 no buffer
+     4375 packets input, 344196 bytes, 0 no buffer
      Received 0 broadcasts (0 IP multicasts)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     4405 packets output, 659067 bytes, 0 underruns
+     4985 packets output, 749544 bytes, 0 underruns
      0 output errors, 0 collisions, 5 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -113,7 +113,7 @@ GigabitEthernet0/1 is up, line protocol is up (connected)
   Auto Duplex, Auto Speed, link type is auto, media type is RJ45
   output flow-control is unsupported, input flow-control is unsupported
   ARP type: ARPA, ARP Timeout 04:00:00
-  Last input never, output 00:00:01, output hang never
+  Last input never, output 00:00:00, output hang never
   Last clearing of "show interface" counters never
   Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
   Queueing strategy: fifo
@@ -125,7 +125,7 @@ GigabitEthernet0/1 is up, line protocol is up (connected)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     3301 packets output, 242616 bytes, 0 underruns
+     3401 packets output, 249888 bytes, 0 underruns
      0 output errors, 0 collisions, 2 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -140,7 +140,7 @@ GigabitEthernet0/2 is up, line protocol is up (connected)
   Auto Duplex, Auto Speed, link type is auto, media type is RJ45
   output flow-control is unsupported, input flow-control is unsupported
   ARP type: ARPA, ARP Timeout 04:00:00
-  Last input never, output 00:00:01, output hang never
+  Last input never, output 00:00:00, output hang never
   Last clearing of "show interface" counters never
   Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
   Queueing strategy: fifo
@@ -152,7 +152,7 @@ GigabitEthernet0/2 is up, line protocol is up (connected)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     3301 packets output, 242616 bytes, 0 underruns
+     3401 packets output, 249888 bytes, 0 underruns
      0 output errors, 0 collisions, 2 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -167,7 +167,7 @@ GigabitEthernet0/3 is up, line protocol is up (connected)
   Auto Duplex, Auto Speed, link type is auto, media type is RJ45
   output flow-control is unsupported, input flow-control is unsupported
   ARP type: ARPA, ARP Timeout 04:00:00
-  Last input never, output 00:00:01, output hang never
+  Last input never, output 00:00:00, output hang never
   Last clearing of "show interface" counters never
   Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
   Queueing strategy: fifo
@@ -179,7 +179,7 @@ GigabitEthernet0/3 is up, line protocol is up (connected)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     3301 packets output, 242616 bytes, 0 underruns
+     3401 packets output, 249888 bytes, 0 underruns
      0 output errors, 0 collisions, 2 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -194,7 +194,7 @@ GigabitEthernet1/0 is up, line protocol is up (connected)
   Auto Duplex, Auto Speed, link type is auto, media type is RJ45
   output flow-control is unsupported, input flow-control is unsupported
   ARP type: ARPA, ARP Timeout 04:00:00
-  Last input never, output 00:00:01, output hang never
+  Last input never, output 00:00:00, output hang never
   Last clearing of "show interface" counters never
   Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
   Queueing strategy: fifo
@@ -206,7 +206,7 @@ GigabitEthernet1/0 is up, line protocol is up (connected)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     3301 packets output, 242616 bytes, 0 underruns
+     3401 packets output, 249888 bytes, 0 underruns
      0 output errors, 0 collisions, 2 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -221,7 +221,7 @@ GigabitEthernet1/1 is up, line protocol is up (connected)
   Auto Duplex, Auto Speed, link type is auto, media type is RJ45
   output flow-control is unsupported, input flow-control is unsupported
   ARP type: ARPA, ARP Timeout 04:00:00
-  Last input never, output 00:00:01, output hang never
+  Last input never, output 00:00:00, output hang never
   Last clearing of "show interface" counters never
   Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
   Queueing strategy: fifo
@@ -233,7 +233,7 @@ GigabitEthernet1/1 is up, line protocol is up (connected)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     3301 packets output, 242616 bytes, 0 underruns
+     3401 packets output, 249888 bytes, 0 underruns
      0 output errors, 0 collisions, 2 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -248,7 +248,7 @@ GigabitEthernet1/2 is up, line protocol is up (connected)
   Auto Duplex, Auto Speed, link type is auto, media type is RJ45
   output flow-control is unsupported, input flow-control is unsupported
   ARP type: ARPA, ARP Timeout 04:00:00
-  Last input never, output 00:00:01, output hang never
+  Last input never, output 00:00:00, output hang never
   Last clearing of "show interface" counters never
   Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
   Queueing strategy: fifo
@@ -260,7 +260,7 @@ GigabitEthernet1/2 is up, line protocol is up (connected)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     3301 packets output, 242616 bytes, 0 underruns
+     3401 packets output, 249888 bytes, 0 underruns
      0 output errors, 0 collisions, 2 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -275,7 +275,7 @@ GigabitEthernet1/3 is up, line protocol is up (connected)
   Auto Duplex, Auto Speed, link type is auto, media type is RJ45
   output flow-control is unsupported, input flow-control is unsupported
   ARP type: ARPA, ARP Timeout 04:00:00
-  Last input never, output 00:00:01, output hang never
+  Last input never, output 00:00:00, output hang never
   Last clearing of "show interface" counters never
   Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
   Queueing strategy: fifo
@@ -287,7 +287,7 @@ GigabitEthernet1/3 is up, line protocol is up (connected)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     3301 packets output, 242616 bytes, 0 underruns
+     3401 packets output, 249888 bytes, 0 underruns
      0 output errors, 0 collisions, 2 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -312,7 +312,7 @@ Vlan1 is up, line protocol is up
      Received 0 broadcasts (0 IP multicasts)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
-     22 packets output, 1716 bytes, 0 underruns
+     25 packets output, 1962 bytes, 0 underruns
      0 output errors, 0 interface resets
      0 unknown protocol drops
      0 output buffer failures, 0 output buffers swapped out
@@ -336,7 +336,7 @@ Entry address(es):
   IP address: 192.168.3.1
 Platform: Cisco ,  Capabilities: Router Source-Route-Bridge 
 Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet0/3
-Holdtime : 145 sec
+Holdtime : 149 sec
 
 Version :
 Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.9(3)M6, RELEASE SOFTWARE (fc1)
@@ -387,11 +387,11 @@ Vlan    Mac Address       Type        Ports
 ############# show arp ###########
 Protocol  Address          Age (min)  Hardware Addr   Type   Interface
 Internet  192.168.2.2             -   5000.0003.8001  ARPA   Vlan1
-Internet  192.168.3.1            93   5000.0001.0003  ARPA   GigabitEthernet0/0
+Internet  192.168.3.1            96   5000.0001.0003  ARPA   GigabitEthernet0/0
 Internet  192.168.3.2             -   5000.0003.0000  ARPA   GigabitEthernet0/0
 
 ############# show clock ###########
-*14:12:11.967 UTC Wed Apr 30 2025
+*14:14:57.251 UTC Wed Apr 30 2025
 
 ############# show users ###########
 Line       User       Host(s)              Idle       Location

@@ -1,439 +1,450 @@
-OUTPUT FROM JUNOS RPC COMMANDS for: junos_router1
+OUTPUT FROM JUNOS RPC COMMANDS for: junos_switch1
 
 ===============================================================================
 RPC: get-software-information
 -------------------------------------------------------------------------------
 
-    <rpc-reply message-id="urn:uuid:d7949a62-370a-46f2-a15b-a3d877485aef">
+    <rpc-reply message-id="urn:uuid:720288aa-ea8e-4d57-9b12-c1bc66515fe6">
     <software-information format="xml">
     <host-name/>
-    <product-model>vmx</product-model>
-    <product-name>vmx</product-name>
-    <junos-version>24.2R1-S2.5</junos-version>
+    <product-model>ex9214</product-model>
+    <product-name>ex9214</product-name>
+    <os-name>junos</os-name>
+    <junos-version>24.4R1.9</junos-version>
     <package-information>
     <name>os-kernel</name>
-    <package-name>os-kernel-prd-x86-64-20241031.1c96ec0_builder_bsd15_242</package-name>
-    <comment>JUNOS OS Kernel 64-bit  [20241031.1c96ec0_builder_bsd15_242]</comment>
-    </package-information>
-    <package-information>
-    <name>junos-modules</name>
-    <package-name>junos-modules-x86-64-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS modules [20241219.163442_builder_junos_242_r1_s2]</comment>
+    <package-name>os-kernel-prd-x86-64-20241104.1ed86e6_builder_bsd15_244</package-name>
+    <comment>JUNOS OS Kernel 64-bit  [20241104.1ed86e6_builder_bsd15_244]</comment>
     </package-information>
     <package-information>
     <name>os-vmguest</name>
-    <package-name>os-vmguest-x86-64-20241031.1c96ec0_builder_bsd15_242</package-name>
-    <comment>JUNOS OS vmguest [20241031.1c96ec0_builder_bsd15_242]</comment>
-    </package-information>
-    <package-information>
-    <name>os-libs-compat32</name>
-    <package-name>os-libs-compat32-15-x86-64-20241031.1c96ec0_builder_bsd15_242</package-name>
-    <comment>JUNOS OS libs compat32 [20241031.1c96ec0_builder_bsd15_242]</comment>
+    <package-name>os-vmguest-x86-64-20241104.1ed86e6_builder_bsd15_244</package-name>
+    <comment>JUNOS OS vmguest [20241104.1ed86e6_builder_bsd15_244]</comment>
     </package-information>
     <package-information>
     <name>os-libs</name>
-    <package-name>os-libs-15-x86-64-20241031.1c96ec0_builder_bsd15_242</package-name>
-    <comment>JUNOS OS libs [20241031.1c96ec0_builder_bsd15_242]</comment>
+    <package-name>os-libs-15-x86-64-20241104.1ed86e6_builder_bsd15_244</package-name>
+    <comment>JUNOS OS libs [20241104.1ed86e6_builder_bsd15_244]</comment>
     </package-information>
     <package-information>
-    <name>os-compat32</name>
-    <package-name>os-compat32-x86-64-20241031.1c96ec0_builder_bsd15_242</package-name>
-    <comment>JUNOS OS 32-bit compatibility [20241031.1c96ec0_builder_bsd15_242]</comment>
+    <name>os-libs-compat32</name>
+    <package-name>os-libs-compat32-15-x86-64-20241104.1ed86e6_builder_bsd15_244</package-name>
+    <comment>JUNOS OS libs compat32 [20241104.1ed86e6_builder_bsd15_244]</comment>
+    </package-information>
+    <package-information>
+    <name>junos-modules</name>
+    <package-name>junos-modules-x86-64-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS modules [20241219.060016_builder_junos_244_r1]</comment>
     </package-information>
     <package-information>
     <name>os-runtime</name>
-    <package-name>os-runtime-x86-64-20241031.1c96ec0_builder_bsd15_242</package-name>
-    <comment>JUNOS OS runtime [20241031.1c96ec0_builder_bsd15_242]</comment>
+    <package-name>os-runtime-x86-64-20241104.1ed86e6_builder_bsd15_244</package-name>
+    <comment>JUNOS OS runtime [20241104.1ed86e6_builder_bsd15_244]</comment>
     </package-information>
     <package-information>
-    <name>os-boot-junos</name>
-    <package-name>os-boot-junos-ve-x86-64-20241031.1c96ec0_builder_bsd15_242</package-name>
-    <comment>JUNOS OS boot-ve files [20241031.1c96ec0_builder_bsd15_242]</comment>
-    </package-information>
-    <package-information>
-    <name>zoneinfo</name>
-    <package-name>os-zoneinfo-20241031.1c96ec0_builder_bsd15_242</package-name>
-    <comment>JUNOS OS time zone information [20241031.1c96ec0_builder_bsd15_242]</comment>
-    </package-information>
-    <package-information>
-    <name>py-base</name>
-    <package-name>py-base-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS py base [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>py-extensions</name>
-    <package-name>py-extensions-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS py extensions [20241219.163442_builder_junos_242_r1_s2]</comment>
+    <name>os-compat32</name>
+    <package-name>os-compat32-x86-64-20241104.1ed86e6_builder_bsd15_244</package-name>
+    <comment>JUNOS OS 32-bit compatibility [20241104.1ed86e6_builder_bsd15_244]</comment>
     </package-information>
     <package-information>
     <name>netstack</name>
-    <package-name>junos-net-prd-x86-64-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS network stack and utilities [20241219.163442_builder_junos_242_r1_s2]</comment>
+    <package-name>junos-net-prd-x86-64-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS network stack and utilities [20241219.060016_builder_junos_244_r1]</comment>
     </package-information>
     <package-information>
-    <name>junos-libs</name>
-    <package-name>junos-libs-x86-64-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS libs [20241219.163442_builder_junos_242_r1_s2]</comment>
+    <name>zoneinfo</name>
+    <package-name>os-zoneinfo-20241104.1ed86e6_builder_bsd15_244</package-name>
+    <comment>JUNOS OS time zone information [20241104.1ed86e6_builder_bsd15_244]</comment>
     </package-information>
     <package-information>
-    <name>os-crypto</name>
-    <package-name>os-crypto-x86-64-20241031.1c96ec0_builder_bsd15_242</package-name>
-    <comment>JUNOS OS crypto [20241031.1c96ec0_builder_bsd15_242]</comment>
+    <name>py-extensions</name>
+    <package-name>py-extensions-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS py extensions [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>py-base</name>
+    <package-name>py-base-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS py base [20241219.060016_builder_junos_244_r1]</comment>
     </package-information>
     <package-information>
     <name>os-package</name>
-    <package-name>os-package-20241118.190647_builder_main</package-name>
-    <comment>JUNOS OS package [20241118.190647_builder_main]</comment>
+    <package-name>os-package-20241014.220147_builder_main</package-name>
+    <comment>JUNOS OS package [20241014.220147_builder_main]</comment>
     </package-information>
     <package-information>
-    <name>jail-runtime</name>
-    <package-name>jail-runtime-x86-32-20241031.1c96ec0_builder_bsd15_242</package-name>
-    <comment>JUNOS jail runtime [20241031.1c96ec0_builder_bsd15_242]</comment>
+    <name>os-crypto</name>
+    <package-name>os-crypto-x86-64-20241104.1ed86e6_builder_bsd15_244</package-name>
+    <comment>JUNOS OS crypto [20241104.1ed86e6_builder_bsd15_244]</comment>
     </package-information>
     <package-information>
     <name>junos-libs-platform</name>
-    <package-name>junos-libs-mx-x86-64-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS mx libs [20241219.163442_builder_junos_242_r1_s2]</comment>
+    <package-name>junos-libs-mx-x86-64-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS mx libs [20241219.060016_builder_junos_244_r1]</comment>
     </package-information>
     <package-information>
-    <name>junos-vmguest</name>
-    <package-name>junos-vmguest-x86-64-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS vmguest  [20241219.163442_builder_junos_242_r1_s2]</comment>
+    <name>os-boot-junos</name>
+    <package-name>os-boot-junos-ve-x86-64-20241104.1ed86e6_builder_bsd15_244</package-name>
+    <comment>JUNOS OS boot-ve files [20241104.1ed86e6_builder_bsd15_244]</comment>
     </package-information>
     <package-information>
-    <name>os-modules-net</name>
-    <package-name>os-modules-net-x86-64-20241031.1c96ec0_builder_bsd15_242</package-name>
-    <comment>JUNOS OS network modules [20241031.1c96ec0_builder_bsd15_242]</comment>
+    <name>junos-libs</name>
+    <package-name>junos-libs-x86-64-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS libs [20241219.060016_builder_junos_244_r1]</comment>
     </package-information>
     <package-information>
-    <name>junos-net-platform</name>
-    <package-name>junos-net-mtx-prd-x86-64-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS mtx network modules [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>junos-daemons</name>
-    <package-name>junos-daemons-x86-64-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS daemons [20241219.163442_builder_junos_242_r1_s2]</comment>
+    <name>jail-runtime</name>
+    <package-name>jail-runtime-x86-32-20241104.1ed86e6_builder_bsd15_244</package-name>
+    <comment>JUNOS jail runtime [20241104.1ed86e6_builder_bsd15_244]</comment>
     </package-information>
     <package-information>
     <name>junos-daemons-platform</name>
-    <package-name>junos-daemons-mx-x86-64-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS mx daemons [20241219.163442_builder_junos_242_r1_s2]</comment>
+    <package-name>junos-daemons-mx-x86-64-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS mx daemons [20241219.060016_builder_junos_244_r1]</comment>
     </package-information>
     <package-information>
     <name>junos-vmguest-platform</name>
-    <package-name>junos-vmguest-nfx-3-x86-64-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS vmguest (NFX-3) [20241219.163442_builder_junos_242_r1_s2]</comment>
+    <package-name>junos-vmguest-nfx-3-x86-64-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS vmguest (NFX-3) [20241219.060016_builder_junos_244_r1]</comment>
     </package-information>
     <package-information>
     <name>junos-libs-compat32-platform</name>
-    <package-name>junos-libs-compat32-mx-x86-64-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS mx libs compat32 [20241219.163442_builder_junos_242_r1_s2]</comment>
+    <package-name>junos-libs-compat32-mx-x86-64-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS mx libs compat32 [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>junos-net-platform</name>
+    <package-name>junos-net-mtx-prd-x86-64-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS mtx network modules [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>junos-daemons</name>
+    <package-name>junos-daemons-x86-64-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS daemons [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>os-modules-net</name>
+    <package-name>os-modules-net-x86-64-20241104.1ed86e6_builder_bsd15_244</package-name>
+    <comment>JUNOS OS network modules [20241104.1ed86e6_builder_bsd15_244]</comment>
+    </package-information>
+    <package-information>
+    <name>junos-vmguest</name>
+    <package-name>junos-vmguest-x86-64-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS vmguest  [20241219.060016_builder_junos_244_r1]</comment>
     </package-information>
     <package-information>
     <name>junos-libs-compat32</name>
-    <package-name>junos-libs-compat32-x86-64-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS libs compat32 [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>junos-runtime</name>
-    <package-name>junos-runtime-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS runtime [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>junos-modules-platform</name>
-    <package-name>junos-modules-mx-x86-64-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS mx modules [20241219.163442_builder_junos_242_r1_s2]</comment>
+    <package-name>junos-libs-compat32-x86-64-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS libs compat32 [20241219.060016_builder_junos_244_r1]</comment>
     </package-information>
     <package-information>
     <name>junos-runtime-platform</name>
-    <package-name>junos-runtime-mx-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS mx runtime [20241219.163442_builder_junos_242_r1_s2]</comment>
+    <package-name>junos-runtime-mx-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS mx runtime [20241219.060016_builder_junos_244_r1]</comment>
     </package-information>
     <package-information>
-    <name>jservices-telemetry</name>
-    <package-name>jservices-telemetry-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Services Telemetry [20241219.163442_builder_junos_242_r1_s2]</comment>
+    <name>junos-runtime</name>
+    <package-name>junos-runtime-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS runtime [20241219.060016_builder_junos_244_r1]</comment>
     </package-information>
     <package-information>
-    <name>jservices-tcp-log</name>
-    <package-name>jservices-tcp-log-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Services TCP-LOG [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jservices-ssl</name>
-    <package-name>jservices-ssl-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Services SSL [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jservices-softwire</name>
-    <package-name>jservices-softwire-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Services SOFTWIRE [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jservices-sfw</name>
-    <package-name>jservices-sfw-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Services Stateful Firewall [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jservices-rtcom</name>
-    <package-name>jservices-rtcom-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Services RTCOM [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jservices-rpm</name>
-    <package-name>jservices-rpm-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Services RPM [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jservices-pcef</name>
-    <package-name>jservices-pcef-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Services PCEF package [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jservices-nat</name>
-    <package-name>jservices-nat-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Services NAT [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jservices-mss</name>
-    <package-name>jservices-mss-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Services Mobile Subscriber Service Container package [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jservices-mobile</name>
-    <package-name>jservices-mobile-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Services MobileNext Software package [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jservices-lrf</name>
-    <package-name>jservices-lrf-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Services Logging Report Framework package [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jservices-jflow</name>
-    <package-name>jservices-jflow-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Services Jflow Container package [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jservices-jdpi</name>
-    <package-name>jservices-jdpi-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Services Deep Packet Inspection package [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jservices-ipsec</name>
-    <package-name>jservices-ipsec-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Services IPSec [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jservices-ids</name>
-    <package-name>jservices-ids-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Services IDS [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jservices-hcm</name>
-    <package-name>jservices-hcm-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Services HTTP Content Management package [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jservices-dnsf</name>
-    <package-name>jservices-dnsf-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Services DNS Filter package (i386) [20241219.163442_builder_junos_242_r1_s2] </comment>
-    </package-information>
-    <package-information>
-    <name>jservices-crypto-base</name>
-    <package-name>jservices-crypto-base-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Services Crypto [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jservices-cpcd</name>
-    <package-name>jservices-cpcd-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Services Captive Portal and Content Delivery Container package [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jservices-cos</name>
-    <package-name>jservices-cos-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Services COS [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jservices-appid</name>
-    <package-name>jservices-appid-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS AppId Services [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jservices-alg</name>
-    <package-name>jservices-alg-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Services Application Level Gateways [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jsd-jet-1</name>
-    <package-name>jsd-x86-32-20241219.163442_builder_junos_242_r1_s2-jet-1</package-name>
-    <comment>JUNOS Extension Toolkit [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jmrt-base</name>
-    <package-name>jmrt-base-x86-64-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Juniper Malware Removal Tool (JMRT) [1.0.0+20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jinsight</name>
-    <package-name>jinsight-x86-32-24.2R1-S2.5</package-name>
-    <comment>JUNOS J-Insight [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jdocs</name>
-    <package-name>jdocs-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Online Documentation [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>fips-mode</name>
-    <package-name>fips-mode-x86-64-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS FIPS mode utilities [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>dsa</name>
-    <package-name>dsa-x86-64-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS dsa [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>vmguest</name>
-    <package-name>jsim-pfe-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Packet Forwarding Engine Simulation Package [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>sflow-platform</name>
-    <package-name>sflow-mx-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS sflow mx [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>na-telemetry</name>
-    <package-name>na-telemetry-x86-32-24.2R1-S2.5</package-name>
-    <comment>JUNOS na telemetry [24.2R1-S2.5]</comment>
-    </package-information>
-    <package-information>
-    <name>junos-sysmond-full</name>
-    <package-name>junos-sysmond-full-x86-64-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS full sysmond [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>junos-support</name>
-    <package-name>junos-support-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS support scripts [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>junos-rpd-telemetry-application</name>
-    <package-name>junos-rpd-telemetry-application-x86-64-24.2R1-S2.5-bsd15</package-name>
-    <comment>JUNOS RPD Telemetry Application [24.2R1-S2.5]</comment>
-    </package-information>
-    <package-information>
-    <name>junos-routing-scripts</name>
-    <package-name>junos-routing-scripts-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS python routing scripts for consistency check in RIB/FIB/PFE [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>junos-routing-mpls-oam-basic</name>
-    <package-name>junos-routing-mpls-oam-basic-x86-64-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Routing mpls-oam-basic [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>junos-routing-mpls-oam-advanced</name>
-    <package-name>junos-routing-mpls-oam-advanced-x86-64-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Routing mpls-oam-advanced [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>junos-routing-lsys</name>
-    <package-name>junos-routing-lsys-x86-64-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Routing lsys [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>junos-routing-controller-internal</name>
-    <package-name>junos-routing-controller-internal-x86-64-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Routing controller-internal [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>junos-routing-controller-external</name>
-    <package-name>junos-routing-controller-external-x86-64-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Routing controller-external [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>junos-routing-compat32</name>
-    <package-name>junos-routing-compat32-x86-64-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Routing 32-bit Compatible Version [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>junos-routing-aggregated</name>
-    <package-name>junos-routing-aggregated-x86-64-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Routing aggregated [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>junos-probe</name>
-    <package-name>junos-probe-x86-64-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS probe utility [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>junos-platform</name>
-    <package-name>junos-platform-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS common platform support [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>junos-openconfig</name>
-    <package-name>junos-openconfig-x86-32-24.2R1-S2.5</package-name>
-    <comment>JUNOS Openconfig [24.2R1-S2.5]</comment>
-    </package-information>
-    <package-information>
-    <name>junos-l2-rsi</name>
-    <package-name>junos-l2-rsi-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS L2 RSI Scripts [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>junos-jsqlsync</name>
-    <package-name>junos-jsqlsync-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS SQL Sync Daemon [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>junos-dp-crypto-support-platform</name>
-    <package-name>junos-dp-crypto-support-mtx-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS mtx Data Plane Crypto Support [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>junos-bbe-up</name>
-    <package-name>junos-bbe-up-x86-64-24.2R1-S2.5</package-name>
-    <comment>JUNOS Broadband Edge User Plane Apps [24.2R1-S2.5]</comment>
-    </package-information>
-    <package-information>
-    <name>junos-appidd</name>
-    <package-name>junos-appidd-mx-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS appidd-mx application-identification daemon [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jsim-wrlinux</name>
-    <package-name>jsim-wrlinux-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Simulation Linux Package [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jsim-pfe-vmx</name>
-    <package-name>jsim-pfe-vmx-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Simulation Package [20241219.163442_builder_junos_242_r1_s2]</comment>
-    </package-information>
-    <package-information>
-    <name>jsim-pfe-internal</name>
-    <package-name>jsim-pfe-internal-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Simulation Package [20241219.163442_builder_junos_242_r1_s2]</comment>
+    <name>junos-modules-platform</name>
+    <package-name>junos-modules-mx-x86-64-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS mx modules [20241219.060016_builder_junos_244_r1]</comment>
     </package-information>
     <package-information>
     <name>jservices-urlf</name>
-    <package-name>jservices-urlf-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Services URL Filter package [20241219.163442_builder_junos_242_r1_s2]</comment>
+    <package-name>jservices-urlf-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Services URL Filter package [20241219.060016_builder_junos_244_r1]</comment>
     </package-information>
     <package-information>
     <name>jservices-traffic-dird</name>
-    <package-name>jservices-traffic-dird-x86-32-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Services TLB Service PIC package [20241219.163442_builder_junos_242_r1_s2]</comment>
+    <package-name>jservices-traffic-dird-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Services TLB Service PIC package [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jservices-telemetry</name>
+    <package-name>jservices-telemetry-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Services Telemetry [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jservices-tcp-log</name>
+    <package-name>jservices-tcp-log-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Services TCP-LOG [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jservices-ssl</name>
+    <package-name>jservices-ssl-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Services SSL [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jservices-softwire</name>
+    <package-name>jservices-softwire-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Services SOFTWIRE [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jservices-sfw</name>
+    <package-name>jservices-sfw-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Services Stateful Firewall [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jservices-rtcom</name>
+    <package-name>jservices-rtcom-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Services RTCOM [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jservices-rpm</name>
+    <package-name>jservices-rpm-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Services RPM [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jservices-pcef</name>
+    <package-name>jservices-pcef-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Services PCEF package [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jservices-nat</name>
+    <package-name>jservices-nat-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Services NAT [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jservices-mss</name>
+    <package-name>jservices-mss-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Services Mobile Subscriber Service Container package [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jservices-mobile</name>
+    <package-name>jservices-mobile-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Services MobileNext Software package [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jservices-lrf</name>
+    <package-name>jservices-lrf-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Services Logging Report Framework package [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jservices-jflow</name>
+    <package-name>jservices-jflow-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Services Jflow Container package [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jservices-jdpi</name>
+    <package-name>jservices-jdpi-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Services Deep Packet Inspection package [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jservices-ipsec</name>
+    <package-name>jservices-ipsec-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Services IPSec [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jservices-ids</name>
+    <package-name>jservices-ids-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Services IDS [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jservices-hcm</name>
+    <package-name>jservices-hcm-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Services HTTP Content Management package [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jservices-dnsf</name>
+    <package-name>jservices-dnsf-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Services DNS Filter package (i386) [20241219.060016_builder_junos_244_r1] </comment>
+    </package-information>
+    <package-information>
+    <name>jservices-crypto-base</name>
+    <package-name>jservices-crypto-base-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Services Crypto [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jservices-cpcd</name>
+    <package-name>jservices-cpcd-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Services Captive Portal and Content Delivery Container package [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jservices-cos</name>
+    <package-name>jservices-cos-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Services COS [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jservices-appid</name>
+    <package-name>jservices-appid-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS AppId Services [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jservices-alg</name>
+    <package-name>jservices-alg-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Services Application Level Gateways [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jsd-jet-1</name>
+    <package-name>jsd-x86-32-20241219.060016_builder_junos_244_r1-jet-1</package-name>
+    <comment>JUNOS Extension Toolkit [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jpfe-aft</name>
+    <package-name>jpfe-aft-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Packet Forwarding Engine Support (aft) [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jmrt-base</name>
+    <package-name>jmrt-base-x86-64-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Juniper Malware Removal Tool (JMRT) [1.0.0+20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jinsight</name>
+    <package-name>jinsight-x86-32-24.4R1.9</package-name>
+    <comment>JUNOS J-Insight [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jdocs</name>
+    <package-name>jdocs-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Online Documentation [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>dsa</name>
+    <package-name>dsa-x86-64-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS dsa [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>vmguest</name>
+    <package-name>jsim-pfe-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Packet Forwarding Engine Simulation Package [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>ssh-tunneld</name>
+    <package-name>ssh-tunneld-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS SSH Tunnel Daemon [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>sflow-platform</name>
+    <package-name>sflow-mx-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS sflow mx [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>na-telemetry</name>
+    <package-name>na-telemetry-x86-32-24.4R1.9</package-name>
+    <comment>JUNOS na telemetry [24.4R1.9]</comment>
+    </package-information>
+    <package-information>
+    <name>junos-support</name>
+    <package-name>junos-support-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS support scripts [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>junos-schedtrace</name>
+    <package-name>junos-schedtrace-x86-64-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>Junos scheduler tracing [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>junos-rpd-telemetry-application</name>
+    <package-name>junos-rpd-telemetry-application-x86-64-24.4R1.9-bsd15</package-name>
+    <comment>JUNOS RPD Telemetry Application [24.4R1.9]</comment>
+    </package-information>
+    <package-information>
+    <name>junos-routing-scripts</name>
+    <package-name>junos-routing-scripts-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS python routing scripts for consistency check in RIB/FIB/PFE [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>junos-routing-mpls-oam-basic</name>
+    <package-name>junos-routing-mpls-oam-basic-x86-64-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Routing mpls-oam-basic [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>junos-routing-mpls-oam-advanced</name>
+    <package-name>junos-routing-mpls-oam-advanced-x86-64-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Routing mpls-oam-advanced [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>junos-routing-lsys</name>
+    <package-name>junos-routing-lsys-x86-64-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Routing lsys [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>junos-routing-controller-internal</name>
+    <package-name>junos-routing-controller-internal-x86-64-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Routing controller-internal [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>junos-routing-controller-external</name>
+    <package-name>junos-routing-controller-external-x86-64-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Routing controller-external [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>junos-routing-compat32</name>
+    <package-name>junos-routing-compat32-x86-64-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Routing 32-bit Compatible Version [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>junos-routing-aggregated</name>
+    <package-name>junos-routing-aggregated-x86-64-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Routing aggregated [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>junos-probe</name>
+    <package-name>junos-probe-x86-64-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS probe utility [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>junos-platform</name>
+    <package-name>junos-platform-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS common platform support [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>junos-openconfig</name>
+    <package-name>junos-openconfig-x86-32-24.4R1.9</package-name>
+    <comment>JUNOS Openconfig [24.4R1.9]</comment>
+    </package-information>
+    <package-information>
+    <name>junos-l2-rsi</name>
+    <package-name>junos-l2-rsi-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS L2 RSI Scripts [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>junos-km</name>
+    <package-name>junos-km-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Key Manager [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>junos-jsqlsync</name>
+    <package-name>junos-jsqlsync-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS SQL Sync Daemon [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>junos-dp-crypto-support-platform</name>
+    <package-name>junos-dp-crypto-support-mtx-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS mtx Data Plane Crypto Support [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>junos-bbe-up</name>
+    <package-name>junos-bbe-up-x86-64-24.4R1.9</package-name>
+    <comment>JUNOS Broadband Edge User Plane Apps [24.4R1.9]</comment>
+    </package-information>
+    <package-information>
+    <name>junos-appidd</name>
+    <package-name>junos-appidd-mx-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS appidd-mx application-identification daemon [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jsim-wrlinux</name>
+    <package-name>jsim-wrlinux-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Simulation Linux Package [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jsim-pfe-vmx</name>
+    <package-name>jsim-pfe-vmx-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Simulation Package [20241219.060016_builder_junos_244_r1]</comment>
+    </package-information>
+    <package-information>
+    <name>jsim-pfe-internal</name>
+    <package-name>jsim-pfe-internal-x86-32-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Simulation Package [20241219.060016_builder_junos_244_r1]</comment>
     </package-information>
     <package-information>
     <name>jmrt-test</name>
-    <package-name>jmrt-test-x86-64-20241219.163442_builder_junos_242_r1_s2</package-name>
-    <comment>JUNOS Juniper Malware Removal Tool (JMRT) Test [1.0.0+20241219.163442_builder_junos_242_r1_s2]</comment>
+    <package-name>jmrt-test-x86-64-20241219.060016_builder_junos_244_r1</package-name>
+    <comment>JUNOS Juniper Malware Removal Tool (JMRT) Test [1.0.0+20241219.060016_builder_junos_244_r1]</comment>
     </package-information>
     </software-information>
     </rpc-reply>
@@ -442,45 +453,45 @@ RPC: get-software-information
 RPC: get-system-uptime-information
 -------------------------------------------------------------------------------
 
-    <rpc-reply message-id="urn:uuid:044f6bb8-838d-48ba-af64-a01631aadbdf">
+    <rpc-reply message-id="urn:uuid:14dce0ca-13aa-4b02-bb72-b033575eca66">
     <system-uptime-information format="xml">
     <current-time>
-    <date-time seconds="1746022662">2025-04-30 14:17:42 UTC</date-time>
+    <date-time seconds="1746022748">2025-04-30 14:19:08 UTC</date-time>
     </current-time>
     <time-source>
      LOCAL CLOCK 
     </time-source>
     <system-booted-time>
-    <date-time seconds="1746016857">2025-04-30 12:40:57 UTC</date-time>
-    <time-length seconds="5805">01:36:45</time-length>
+    <date-time seconds="1746016841">2025-04-30 12:40:41 UTC</date-time>
+    <time-length seconds="5907">01:38:27</time-length>
     </system-booted-time>
     <protocols-started-time>
-    <date-time seconds="1746018690">2025-04-30 13:11:30 UTC</date-time>
-    <time-length seconds="3972">01:06:12</time-length>
+    <date-time seconds="1746018668">2025-04-30 13:11:08 UTC</date-time>
+    <time-length seconds="4080">01:08:00</time-length>
     </protocols-started-time>
     <last-configured-time>
-    <date-time seconds="1745891780">2025-04-29 01:56:20 UTC</date-time>
-    <time-length seconds="130882">1d 12:21</time-length>
+    <date-time seconds="1745329476">2025-04-22 13:44:36 UTC</date-time>
+    <time-length seconds="693272">1w1d 00:34</time-length>
     <user>root</user>
     </last-configured-time>
     <uptime-information>
-    <date-time seconds="1746022662">
-    2:17PM
+    <date-time seconds="1746022753">
+    2:19PM
     </date-time>
-    <up-time seconds="5820">
-    1:37
+    <up-time seconds="5880">
+    1:38
     </up-time>
     <active-user-count format="0 users">
     0
     </active-user-count>
     <load-average-1>
-    2.83
+    5.68
     </load-average-1>
     <load-average-5>
-    2.93
+    5.32
     </load-average-5>
     <load-average-15>
-    3.57
+    4.81
     </load-average-15>
     <user-table>
     </user-table>
@@ -492,7 +503,7 @@ RPC: get-system-uptime-information
 RPC: get-interface-information
 -------------------------------------------------------------------------------
 
-    <rpc-reply message-id="urn:uuid:6ad64026-c9ca-48e1-b1e1-00c5dfe3337a">
+    <rpc-reply message-id="urn:uuid:eb2de11d-ddfc-4990-b8c9-4ce41ce7ec7b">
     <interface-information format="xml" style="normal">
     <physical-interface>
     <name>
@@ -505,10 +516,10 @@ RPC: get-interface-information
     up
     </oper-status>
     <local-index>
-    149
+    142
     </local-index>
     <snmp-index>
-    527
+    520
     </snmp-index>
     <link-level-type>
     Ethernet
@@ -519,9 +530,6 @@ RPC: get-interface-information
     <sonet-mode>
     LAN-PHY
     </sonet-mode>
-    <mru>
-    1522
-    </mru>
     <source-filtering>
     disabled
     </source-filtering>
@@ -531,6 +539,9 @@ RPC: get-interface-information
     <eth-switch-error>
     none
     </eth-switch-error>
+    <remote-bounce>
+    none
+    </remote-bounce>
     <bpdu-error>
     none
     </bpdu-error>
@@ -552,16 +563,16 @@ RPC: get-interface-information
     <if-remote-fault>
     online
     </if-remote-fault>
-    <pad-to-minimum-frame-size>
-    Disabled
-    </pad-to-minimum-frame-size>
+    <if-media-type>
+    Fiber
+    </if-media-type>
     <if-device-flags>
     <ifdf-present/>
     <ifdf-running/>
     </if-device-flags>
     <ifd-specific-config-flags>
     <internal-flags>
-    0x100200
+    0x101200
     </internal-flags>
     </ifd-specific-config-flags>
     <if-config-flags>
@@ -582,13 +593,13 @@ RPC: get-interface-information
     </physical-interface-cos-use-max-queues>
     </physical-interface-cos-information>
     <current-physical-address>
-    50:00:00:04:00:01
+    50:00:00:02:00:01
     </current-physical-address>
     <hardware-physical-address>
-    50:00:00:04:00:01
+    50:00:00:02:00:01
     </hardware-physical-address>
-    <interface-flapped seconds="3881">
-    2025-04-30 13:13:03 UTC (01:04:41 ago)
+    <interface-flapped seconds="3985">
+    2025-04-30 13:12:57 UTC (01:06:25 ago)
     </interface-flapped>
     <traffic-statistics style="brief">
     <input-bps>
@@ -598,7 +609,7 @@ RPC: get-interface-information
     0
     </input-pps>
     <output-bps>
-    0
+    88
     </output-bps>
     <output-pps>
     0
@@ -630,10 +641,10 @@ RPC: get-interface-information
     ge-0/0/0.16386
     </name>
     <local-index>
-    332
+    329
     </local-index>
     <snmp-index>
-    528
+    527
     </snmp-index>
     <if-config-flags>
     <iff-up/>
@@ -652,7 +663,7 @@ RPC: get-interface-information
     0
     </input-packets>
     <output-packets>
-    0
+    145
     </output-packets>
     </traffic-statistics>
     <filter-information>
@@ -670,10 +681,10 @@ RPC: get-interface-information
     up
     </oper-status>
     <local-index>
-    146
+    139
     </local-index>
     <snmp-index>
-    520
+    513
     </snmp-index>
     <speed>
     800mbps
@@ -708,10 +719,10 @@ RPC: get-interface-information
     lc-0/0/0.32769
     </name>
     <local-index>
-    328
+    325
     </local-index>
     <snmp-index>
-    521
+    514
     </snmp-index>
     <if-config-flags>
     <iff-up/>
@@ -761,10 +772,10 @@ RPC: get-interface-information
     up
     </oper-status>
     <local-index>
-    148
+    141
     </local-index>
     <snmp-index>
-    525
+    518
     </snmp-index>
     <speed>
     800mbps
@@ -799,10 +810,10 @@ RPC: get-interface-information
     pfe-0/0/0.16383
     </name>
     <local-index>
-    329
+    326
     </local-index>
     <snmp-index>
-    526
+    519
     </snmp-index>
     <if-config-flags>
     <iff-up/>
@@ -891,10 +902,10 @@ RPC: get-interface-information
     up
     </oper-status>
     <local-index>
-    147
+    140
     </local-index>
     <snmp-index>
-    522
+    515
     </snmp-index>
     <speed>
     800mbps
@@ -929,10 +940,10 @@ RPC: get-interface-information
     pfh-0/0/0.16383
     </name>
     <local-index>
-    330
+    327
     </local-index>
     <snmp-index>
-    523
+    516
     </snmp-index>
     <if-config-flags>
     <iff-up/>
@@ -988,10 +999,10 @@ RPC: get-interface-information
     pfh-0/0/0.16384
     </name>
     <local-index>
-    331
+    328
     </local-index>
     <snmp-index>
-    524
+    517
     </snmp-index>
     <if-config-flags>
     <iff-up/>
@@ -1055,10 +1066,10 @@ RPC: get-interface-information
     up
     </oper-status>
     <local-index>
-    150
+    143
     </local-index>
     <snmp-index>
-    529
+    521
     </snmp-index>
     <link-level-type>
     Ethernet
@@ -1069,9 +1080,6 @@ RPC: get-interface-information
     <sonet-mode>
     LAN-PHY
     </sonet-mode>
-    <mru>
-    1522
-    </mru>
     <source-filtering>
     disabled
     </source-filtering>
@@ -1081,6 +1089,9 @@ RPC: get-interface-information
     <eth-switch-error>
     none
     </eth-switch-error>
+    <remote-bounce>
+    none
+    </remote-bounce>
     <bpdu-error>
     none
     </bpdu-error>
@@ -1102,16 +1113,16 @@ RPC: get-interface-information
     <if-remote-fault>
     online
     </if-remote-fault>
-    <pad-to-minimum-frame-size>
-    Disabled
-    </pad-to-minimum-frame-size>
+    <if-media-type>
+    Fiber
+    </if-media-type>
     <if-device-flags>
     <ifdf-present/>
     <ifdf-running/>
     </if-device-flags>
     <ifd-specific-config-flags>
     <internal-flags>
-    0x100200
+    0x101200
     </internal-flags>
     </ifd-specific-config-flags>
     <if-config-flags>
@@ -1132,13 +1143,13 @@ RPC: get-interface-information
     </physical-interface-cos-use-max-queues>
     </physical-interface-cos-information>
     <current-physical-address>
-    50:00:00:04:00:02
+    50:00:00:02:00:02
     </current-physical-address>
     <hardware-physical-address>
-    50:00:00:04:00:02
+    50:00:00:02:00:02
     </hardware-physical-address>
-    <interface-flapped seconds="3881">
-    2025-04-30 13:13:03 UTC (01:04:41 ago)
+    <interface-flapped seconds="3990">
+    2025-04-30 13:12:58 UTC (01:06:30 ago)
     </interface-flapped>
     <traffic-statistics style="brief">
     <input-bps>
@@ -1148,7 +1159,7 @@ RPC: get-interface-information
     0
     </input-pps>
     <output-bps>
-    0
+    88
     </output-bps>
     <output-pps>
     0
@@ -1180,10 +1191,10 @@ RPC: get-interface-information
     ge-0/0/1.16386
     </name>
     <local-index>
-    333
+    330
     </local-index>
     <snmp-index>
-    530
+    529
     </snmp-index>
     <if-config-flags>
     <iff-up/>
@@ -1202,7 +1213,7 @@ RPC: get-interface-information
     0
     </input-packets>
     <output-packets>
-    0
+    145
     </output-packets>
     </traffic-statistics>
     <filter-information>
@@ -1220,10 +1231,10 @@ RPC: get-interface-information
     up
     </oper-status>
     <local-index>
-    151
+    144
     </local-index>
     <snmp-index>
-    531
+    522
     </snmp-index>
     <link-level-type>
     Ethernet
@@ -1234,9 +1245,6 @@ RPC: get-interface-information
     <sonet-mode>
     LAN-PHY
     </sonet-mode>
-    <mru>
-    1522
-    </mru>
     <source-filtering>
     disabled
     </source-filtering>
@@ -1246,6 +1254,9 @@ RPC: get-interface-information
     <eth-switch-error>
     none
     </eth-switch-error>
+    <remote-bounce>
+    none
+    </remote-bounce>
     <bpdu-error>
     none
     </bpdu-error>
@@ -1267,16 +1278,16 @@ RPC: get-interface-information
     <if-remote-fault>
     online
     </if-remote-fault>
-    <pad-to-minimum-frame-size>
-    Disabled
-    </pad-to-minimum-frame-size>
+    <if-media-type>
+    Fiber
+    </if-media-type>
     <if-device-flags>
     <ifdf-present/>
     <ifdf-running/>
     </if-device-flags>
     <ifd-specific-config-flags>
     <internal-flags>
-    0x100200
+    0x101200
     </internal-flags>
     </ifd-specific-config-flags>
     <if-config-flags>
@@ -1297,13 +1308,13 @@ RPC: get-interface-information
     </physical-interface-cos-use-max-queues>
     </physical-interface-cos-information>
     <current-physical-address>
-    50:00:00:04:00:03
+    50:00:00:02:00:03
     </current-physical-address>
     <hardware-physical-address>
-    50:00:00:04:00:03
+    50:00:00:02:00:03
     </hardware-physical-address>
-    <interface-flapped seconds="3880">
-    2025-04-30 13:13:04 UTC (01:04:40 ago)
+    <interface-flapped seconds="3993">
+    2025-04-30 13:12:58 UTC (01:06:33 ago)
     </interface-flapped>
     <traffic-statistics style="brief">
     <input-bps>
@@ -1313,7 +1324,7 @@ RPC: get-interface-information
     0
     </input-pps>
     <output-bps>
-    0
+    80
     </output-bps>
     <output-pps>
     0
@@ -1345,10 +1356,10 @@ RPC: get-interface-information
     ge-0/0/2.16386
     </name>
     <local-index>
-    335
+    331
     </local-index>
     <snmp-index>
-    532
+    531
     </snmp-index>
     <if-config-flags>
     <iff-up/>
@@ -1367,7 +1378,7 @@ RPC: get-interface-information
     0
     </input-packets>
     <output-packets>
-    0
+    145
     </output-packets>
     </traffic-statistics>
     <filter-information>
@@ -1385,10 +1396,10 @@ RPC: get-interface-information
     up
     </oper-status>
     <local-index>
-    152
+    145
     </local-index>
     <snmp-index>
-    533
+    523
     </snmp-index>
     <link-level-type>
     Ethernet
@@ -1399,9 +1410,6 @@ RPC: get-interface-information
     <sonet-mode>
     LAN-PHY
     </sonet-mode>
-    <mru>
-    1522
-    </mru>
     <source-filtering>
     disabled
     </source-filtering>
@@ -1411,6 +1419,9 @@ RPC: get-interface-information
     <eth-switch-error>
     none
     </eth-switch-error>
+    <remote-bounce>
+    none
+    </remote-bounce>
     <bpdu-error>
     none
     </bpdu-error>
@@ -1432,16 +1443,16 @@ RPC: get-interface-information
     <if-remote-fault>
     online
     </if-remote-fault>
-    <pad-to-minimum-frame-size>
-    Disabled
-    </pad-to-minimum-frame-size>
+    <if-media-type>
+    Fiber
+    </if-media-type>
     <if-device-flags>
     <ifdf-present/>
     <ifdf-running/>
     </if-device-flags>
     <ifd-specific-config-flags>
     <internal-flags>
-    0x100200
+    0x101200
     </internal-flags>
     </ifd-specific-config-flags>
     <if-config-flags>
@@ -1462,13 +1473,13 @@ RPC: get-interface-information
     </physical-interface-cos-use-max-queues>
     </physical-interface-cos-information>
     <current-physical-address>
-    50:00:00:04:00:04
+    50:00:00:02:00:04
     </current-physical-address>
     <hardware-physical-address>
-    50:00:00:04:00:04
+    50:00:00:02:00:04
     </hardware-physical-address>
-    <interface-flapped seconds="3880">
-    2025-04-30 13:13:04 UTC (01:04:40 ago)
+    <interface-flapped seconds="3994">
+    2025-04-30 13:12:58 UTC (01:06:34 ago)
     </interface-flapped>
     <traffic-statistics style="brief">
     <input-bps>
@@ -1478,7 +1489,7 @@ RPC: get-interface-information
     0
     </input-pps>
     <output-bps>
-    0
+    80
     </output-bps>
     <output-pps>
     0
@@ -1510,10 +1521,10 @@ RPC: get-interface-information
     ge-0/0/3.16386
     </name>
     <local-index>
-    337
+    332
     </local-index>
     <snmp-index>
-    534
+    532
     </snmp-index>
     <if-config-flags>
     <iff-up/>
@@ -1532,7 +1543,7 @@ RPC: get-interface-information
     0
     </input-packets>
     <output-packets>
-    0
+    146
     </output-packets>
     </traffic-statistics>
     <filter-information>
@@ -1550,10 +1561,10 @@ RPC: get-interface-information
     up
     </oper-status>
     <local-index>
-    153
+    146
     </local-index>
     <snmp-index>
-    535
+    524
     </snmp-index>
     <link-level-type>
     Ethernet
@@ -1564,9 +1575,6 @@ RPC: get-interface-information
     <sonet-mode>
     LAN-PHY
     </sonet-mode>
-    <mru>
-    1522
-    </mru>
     <source-filtering>
     disabled
     </source-filtering>
@@ -1576,6 +1584,9 @@ RPC: get-interface-information
     <eth-switch-error>
     none
     </eth-switch-error>
+    <remote-bounce>
+    none
+    </remote-bounce>
     <bpdu-error>
     none
     </bpdu-error>
@@ -1597,16 +1608,16 @@ RPC: get-interface-information
     <if-remote-fault>
     online
     </if-remote-fault>
-    <pad-to-minimum-frame-size>
-    Disabled
-    </pad-to-minimum-frame-size>
+    <if-media-type>
+    Fiber
+    </if-media-type>
     <if-device-flags>
     <ifdf-present/>
     <ifdf-running/>
     </if-device-flags>
     <ifd-specific-config-flags>
     <internal-flags>
-    0x100200
+    0x101200
     </internal-flags>
     </ifd-specific-config-flags>
     <if-config-flags>
@@ -1627,13 +1638,13 @@ RPC: get-interface-information
     </physical-interface-cos-use-max-queues>
     </physical-interface-cos-information>
     <current-physical-address>
-    50:00:00:04:00:05
+    50:00:00:02:00:05
     </current-physical-address>
     <hardware-physical-address>
-    50:00:00:04:00:05
+    50:00:00:02:00:05
     </hardware-physical-address>
-    <interface-flapped seconds="3881">
-    2025-04-30 13:13:03 UTC (01:04:41 ago)
+    <interface-flapped seconds="3997">
+    2025-04-30 13:12:58 UTC (01:06:37 ago)
     </interface-flapped>
     <traffic-statistics style="brief">
     <input-bps>
@@ -1643,7 +1654,7 @@ RPC: get-interface-information
     0
     </input-pps>
     <output-bps>
-    0
+    80
     </output-bps>
     <output-pps>
     0
@@ -1675,10 +1686,10 @@ RPC: get-interface-information
     ge-0/0/4.16386
     </name>
     <local-index>
-    334
+    333
     </local-index>
     <snmp-index>
-    536
+    533
     </snmp-index>
     <if-config-flags>
     <iff-up/>
@@ -1697,7 +1708,7 @@ RPC: get-interface-information
     0
     </input-packets>
     <output-packets>
-    0
+    145
     </output-packets>
     </traffic-statistics>
     <filter-information>
@@ -1715,10 +1726,10 @@ RPC: get-interface-information
     up
     </oper-status>
     <local-index>
-    154
+    147
     </local-index>
     <snmp-index>
-    537
+    525
     </snmp-index>
     <link-level-type>
     Ethernet
@@ -1729,9 +1740,6 @@ RPC: get-interface-information
     <sonet-mode>
     LAN-PHY
     </sonet-mode>
-    <mru>
-    1522
-    </mru>
     <source-filtering>
     disabled
     </source-filtering>
@@ -1741,6 +1749,9 @@ RPC: get-interface-information
     <eth-switch-error>
     none
     </eth-switch-error>
+    <remote-bounce>
+    none
+    </remote-bounce>
     <bpdu-error>
     none
     </bpdu-error>
@@ -1762,16 +1773,16 @@ RPC: get-interface-information
     <if-remote-fault>
     online
     </if-remote-fault>
-    <pad-to-minimum-frame-size>
-    Disabled
-    </pad-to-minimum-frame-size>
+    <if-media-type>
+    Fiber
+    </if-media-type>
     <if-device-flags>
     <ifdf-present/>
     <ifdf-running/>
     </if-device-flags>
     <ifd-specific-config-flags>
     <internal-flags>
-    0x100200
+    0x101200
     </internal-flags>
     </ifd-specific-config-flags>
     <if-config-flags>
@@ -1792,13 +1803,13 @@ RPC: get-interface-information
     </physical-interface-cos-use-max-queues>
     </physical-interface-cos-information>
     <current-physical-address>
-    50:00:00:04:00:06
+    50:00:00:02:00:06
     </current-physical-address>
     <hardware-physical-address>
-    50:00:00:04:00:06
+    50:00:00:02:00:06
     </hardware-physical-address>
-    <interface-flapped seconds="3880">
-    2025-04-30 13:13:04 UTC (01:04:40 ago)
+    <interface-flapped seconds="3997">
+    2025-04-30 13:12:59 UTC (01:06:37 ago)
     </interface-flapped>
     <traffic-statistics style="brief">
     <input-bps>
@@ -1808,7 +1819,7 @@ RPC: get-interface-information
     0
     </input-pps>
     <output-bps>
-    0
+    88
     </output-bps>
     <output-pps>
     0
@@ -1840,10 +1851,10 @@ RPC: get-interface-information
     ge-0/0/5.16386
     </name>
     <local-index>
-    336
+    334
     </local-index>
     <snmp-index>
-    538
+    534
     </snmp-index>
     <if-config-flags>
     <iff-up/>
@@ -1862,7 +1873,7 @@ RPC: get-interface-information
     0
     </input-packets>
     <output-packets>
-    0
+    145
     </output-packets>
     </traffic-statistics>
     <filter-information>
@@ -1880,10 +1891,10 @@ RPC: get-interface-information
     up
     </oper-status>
     <local-index>
-    155
+    148
     </local-index>
     <snmp-index>
-    539
+    526
     </snmp-index>
     <link-level-type>
     Ethernet
@@ -1894,9 +1905,6 @@ RPC: get-interface-information
     <sonet-mode>
     LAN-PHY
     </sonet-mode>
-    <mru>
-    1522
-    </mru>
     <source-filtering>
     disabled
     </source-filtering>
@@ -1906,6 +1914,9 @@ RPC: get-interface-information
     <eth-switch-error>
     none
     </eth-switch-error>
+    <remote-bounce>
+    none
+    </remote-bounce>
     <bpdu-error>
     none
     </bpdu-error>
@@ -1927,16 +1938,16 @@ RPC: get-interface-information
     <if-remote-fault>
     online
     </if-remote-fault>
-    <pad-to-minimum-frame-size>
-    Disabled
-    </pad-to-minimum-frame-size>
+    <if-media-type>
+    Fiber
+    </if-media-type>
     <if-device-flags>
     <ifdf-present/>
     <ifdf-running/>
     </if-device-flags>
     <ifd-specific-config-flags>
     <internal-flags>
-    0x100200
+    0x101200
     </internal-flags>
     </ifd-specific-config-flags>
     <if-config-flags>
@@ -1957,13 +1968,13 @@ RPC: get-interface-information
     </physical-interface-cos-use-max-queues>
     </physical-interface-cos-information>
     <current-physical-address>
-    50:00:00:04:00:07
+    50:00:00:02:00:07
     </current-physical-address>
     <hardware-physical-address>
-    50:00:00:04:00:07
+    50:00:00:02:00:07
     </hardware-physical-address>
-    <interface-flapped seconds="3880">
-    2025-04-30 13:13:04 UTC (01:04:40 ago)
+    <interface-flapped seconds="4001">
+    2025-04-30 13:12:59 UTC (01:06:41 ago)
     </interface-flapped>
     <traffic-statistics style="brief">
     <input-bps>
@@ -1973,7 +1984,7 @@ RPC: get-interface-information
     0
     </input-pps>
     <output-bps>
-    0
+    88
     </output-bps>
     <output-pps>
     0
@@ -2005,10 +2016,10 @@ RPC: get-interface-information
     ge-0/0/6.16386
     </name>
     <local-index>
-    338
+    335
     </local-index>
     <snmp-index>
-    540
+    535
     </snmp-index>
     <if-config-flags>
     <iff-up/>
@@ -2027,7 +2038,7 @@ RPC: get-interface-information
     0
     </input-packets>
     <output-packets>
-    0
+    146
     </output-packets>
     </traffic-statistics>
     <filter-information>
@@ -2045,10 +2056,10 @@ RPC: get-interface-information
     up
     </oper-status>
     <local-index>
-    156
+    149
     </local-index>
     <snmp-index>
-    541
+    528
     </snmp-index>
     <link-level-type>
     Ethernet
@@ -2059,9 +2070,6 @@ RPC: get-interface-information
     <sonet-mode>
     LAN-PHY
     </sonet-mode>
-    <mru>
-    1522
-    </mru>
     <source-filtering>
     disabled
     </source-filtering>
@@ -2071,6 +2079,9 @@ RPC: get-interface-information
     <eth-switch-error>
     none
     </eth-switch-error>
+    <remote-bounce>
+    none
+    </remote-bounce>
     <bpdu-error>
     none
     </bpdu-error>
@@ -2092,16 +2103,16 @@ RPC: get-interface-information
     <if-remote-fault>
     online
     </if-remote-fault>
-    <pad-to-minimum-frame-size>
-    Disabled
-    </pad-to-minimum-frame-size>
+    <if-media-type>
+    Fiber
+    </if-media-type>
     <if-device-flags>
     <ifdf-present/>
     <ifdf-running/>
     </if-device-flags>
     <ifd-specific-config-flags>
     <internal-flags>
-    0x100200
+    0x101200
     </internal-flags>
     </ifd-specific-config-flags>
     <if-config-flags>
@@ -2122,13 +2133,13 @@ RPC: get-interface-information
     </physical-interface-cos-use-max-queues>
     </physical-interface-cos-information>
     <current-physical-address>
-    50:00:00:04:00:08
+    50:00:00:02:00:08
     </current-physical-address>
     <hardware-physical-address>
-    50:00:00:04:00:08
+    50:00:00:02:00:08
     </hardware-physical-address>
-    <interface-flapped seconds="3880">
-    2025-04-30 13:13:04 UTC (01:04:40 ago)
+    <interface-flapped seconds="4005">
+    2025-04-30 13:12:59 UTC (01:06:45 ago)
     </interface-flapped>
     <traffic-statistics style="brief">
     <input-bps>
@@ -2138,7 +2149,7 @@ RPC: get-interface-information
     0
     </input-pps>
     <output-bps>
-    0
+    88
     </output-bps>
     <output-pps>
     0
@@ -2170,10 +2181,10 @@ RPC: get-interface-information
     ge-0/0/7.16386
     </name>
     <local-index>
-    339
+    336
     </local-index>
     <snmp-index>
-    542
+    536
     </snmp-index>
     <if-config-flags>
     <iff-up/>
@@ -2192,7 +2203,7 @@ RPC: get-interface-information
     0
     </input-packets>
     <output-packets>
-    0
+    145
     </output-packets>
     </traffic-statistics>
     <filter-information>
@@ -2210,10 +2221,10 @@ RPC: get-interface-information
     up
     </oper-status>
     <local-index>
-    157
+    150
     </local-index>
     <snmp-index>
-    543
+    530
     </snmp-index>
     <link-level-type>
     Ethernet
@@ -2224,9 +2235,6 @@ RPC: get-interface-information
     <sonet-mode>
     LAN-PHY
     </sonet-mode>
-    <mru>
-    1522
-    </mru>
     <source-filtering>
     disabled
     </source-filtering>
@@ -2236,6 +2244,9 @@ RPC: get-interface-information
     <eth-switch-error>
     none
     </eth-switch-error>
+    <remote-bounce>
+    none
+    </remote-bounce>
     <bpdu-error>
     none
     </bpdu-error>
@@ -2257,16 +2268,16 @@ RPC: get-interface-information
     <if-remote-fault>
     online
     </if-remote-fault>
-    <pad-to-minimum-frame-size>
-    Disabled
-    </pad-to-minimum-frame-size>
+    <if-media-type>
+    Fiber
+    </if-media-type>
     <if-device-flags>
     <ifdf-present/>
     <ifdf-running/>
     </if-device-flags>
     <ifd-specific-config-flags>
     <internal-flags>
-    0x100200
+    0x101200
     </internal-flags>
     </ifd-specific-config-flags>
     <if-config-flags>
@@ -2287,13 +2298,13 @@ RPC: get-interface-information
     </physical-interface-cos-use-max-queues>
     </physical-interface-cos-information>
     <current-physical-address>
-    50:00:00:04:00:09
+    50:00:00:02:00:09
     </current-physical-address>
     <hardware-physical-address>
-    50:00:00:04:00:09
+    50:00:00:02:00:09
     </hardware-physical-address>
-    <interface-flapped seconds="3880">
-    2025-04-30 13:13:04 UTC (01:04:40 ago)
+    <interface-flapped seconds="4007">
+    2025-04-30 13:12:59 UTC (01:06:47 ago)
     </interface-flapped>
     <traffic-statistics style="brief">
     <input-bps>
@@ -2303,7 +2314,7 @@ RPC: get-interface-information
     0
     </input-pps>
     <output-bps>
-    0
+    88
     </output-bps>
     <output-pps>
     0
@@ -2335,10 +2346,10 @@ RPC: get-interface-information
     ge-0/0/8.16386
     </name>
     <local-index>
-    340
+    337
     </local-index>
     <snmp-index>
-    544
+    537
     </snmp-index>
     <if-config-flags>
     <iff-up/>
@@ -2357,7 +2368,7 @@ RPC: get-interface-information
     0
     </input-packets>
     <output-packets>
-    0
+    146
     </output-packets>
     </traffic-statistics>
     <filter-information>
@@ -2375,10 +2386,10 @@ RPC: get-interface-information
     up
     </oper-status>
     <local-index>
-    158
+    151
     </local-index>
     <snmp-index>
-    545
+    538
     </snmp-index>
     <link-level-type>
     Ethernet
@@ -2389,9 +2400,6 @@ RPC: get-interface-information
     <sonet-mode>
     LAN-PHY
     </sonet-mode>
-    <mru>
-    1522
-    </mru>
     <source-filtering>
     disabled
     </source-filtering>
@@ -2401,6 +2409,9 @@ RPC: get-interface-information
     <eth-switch-error>
     none
     </eth-switch-error>
+    <remote-bounce>
+    none
+    </remote-bounce>
     <bpdu-error>
     none
     </bpdu-error>
@@ -2422,16 +2433,16 @@ RPC: get-interface-information
     <if-remote-fault>
     online
     </if-remote-fault>
-    <pad-to-minimum-frame-size>
-    Disabled
-    </pad-to-minimum-frame-size>
+    <if-media-type>
+    Fiber
+    </if-media-type>
     <if-device-flags>
     <ifdf-present/>
     <ifdf-running/>
     </if-device-flags>
     <ifd-specific-config-flags>
     <internal-flags>
-    0x100200
+    0x101200
     </internal-flags>
     </ifd-specific-config-flags>
     <if-config-flags>
@@ -2452,13 +2463,13 @@ RPC: get-interface-information
     </physical-interface-cos-use-max-queues>
     </physical-interface-cos-information>
     <current-physical-address>
-    50:00:00:04:00:0a
+    50:00:00:02:00:0a
     </current-physical-address>
     <hardware-physical-address>
-    50:00:00:04:00:0a
+    50:00:00:02:00:0a
     </hardware-physical-address>
-    <interface-flapped seconds="3880">
-    2025-04-30 13:13:04 UTC (01:04:40 ago)
+    <interface-flapped seconds="4009">
+    2025-04-30 13:12:59 UTC (01:06:49 ago)
     </interface-flapped>
     <traffic-statistics style="brief">
     <input-bps>
@@ -2468,7 +2479,7 @@ RPC: get-interface-information
     0
     </input-pps>
     <output-bps>
-    0
+    88
     </output-bps>
     <output-pps>
     0
@@ -2500,10 +2511,10 @@ RPC: get-interface-information
     ge-0/0/9.16386
     </name>
     <local-index>
-    341
+    338
     </local-index>
     <snmp-index>
-    546
+    539
     </snmp-index>
     <if-config-flags>
     <iff-up/>
@@ -2522,7 +2533,7 @@ RPC: get-interface-information
     0
     </input-packets>
     <output-packets>
-    0
+    145
     </output-packets>
     </traffic-statistics>
     <filter-information>
@@ -2540,10 +2551,10 @@ RPC: get-interface-information
     up
     </oper-status>
     <local-index>
-    129
+    130
     </local-index>
     <snmp-index>
-    504
+    502
     </snmp-index>
     <if-type>
     Ethernet
@@ -2572,11 +2583,11 @@ RPC: get-interface-information
     <if-media-flags>
     <ifmf-none/>
     </if-media-flags>
-    <current-physical-address format="MAC 2c:6b:f5:2a:ec:11">
-    2c:6b:f5:2a:ec:11
+    <current-physical-address format="MAC 2c:6b:f5:84:a1:11">
+    2c:6b:f5:84:a1:11
     </current-physical-address>
-    <hardware-physical-address format="MAC 2c:6b:f5:2a:ec:11">
-    2c:6b:f5:2a:ec:11
+    <hardware-physical-address format="MAC 2c:6b:f5:84:a1:11">
+    2c:6b:f5:84:a1:11
     </hardware-physical-address>
     <interface-flapped seconds="0">
     Never
@@ -2601,10 +2612,10 @@ RPC: get-interface-information
     up
     </oper-status>
     <local-index>
-    128
+    129
     </local-index>
     <snmp-index>
-    503
+    501
     </snmp-index>
     <if-type>
     Software-Pseudo
@@ -2750,15 +2761,15 @@ RPC: get-interface-information
     <hardware-physical-address format="MAC 52:54:00:12:bd:fe">
     52:54:00:12:bd:fe
     </hardware-physical-address>
-    <interface-flapped seconds="4610">
-    2025-04-30 13:00:54 UTC (01:16:50 ago)
+    <interface-flapped seconds="4329">
+    2025-04-30 13:07:43 UTC (01:12:09 ago)
     </interface-flapped>
     <traffic-statistics style="brief">
     <input-packets>
-    121154
+    123982
     </input-packets>
     <output-packets>
-    124031
+    128792
     </output-packets>
     </traffic-statistics>
     <logical-interface>
@@ -2785,10 +2796,10 @@ RPC: get-interface-information
     </policer-overhead>
     <traffic-statistics style="brief">
     <input-packets>
-    116050
+    118826
     </input-packets>
     <output-packets>
-    124034
+    128820
     </output-packets>
     </traffic-statistics>
     <filter-information>
@@ -2801,10 +2812,10 @@ RPC: get-interface-information
     1500
     </mtu>
     <max-local-cache>
-    75000
+    100000
     </max-local-cache>
     <new-hold-limit>
-    75000
+    100000
     </new-hold-limit>
     <intf-curr-cnt>
     1
@@ -2873,10 +2884,10 @@ RPC: get-interface-information
     1500
     </mtu>
     <max-local-cache>
-    75000
+    100000
     </max-local-cache>
     <new-hold-limit>
-    75000
+    100000
     </new-hold-limit>
     <intf-curr-cnt>
     1
@@ -2903,11 +2914,9 @@ RPC: get-interface-information
     <ifa-local>
     fe80::5254:ff:fe12:bdfe
     </ifa-local>
-    <interface-address>
     <in6-addr-flags>
     <ifaf-none/>
     </in6-addr-flags>
-    </interface-address>
     </interface-address>
     <interface-address>
     <ifa-flags>
@@ -2921,11 +2930,9 @@ RPC: get-interface-information
     <ifa-local>
     fec0::a:0:0:4
     </ifa-local>
-    <interface-address>
     <in6-addr-flags>
     <ifaf-none/>
     </in6-addr-flags>
-    </interface-address>
     </interface-address>
     </address-family>
     <address-family>
@@ -2958,10 +2965,10 @@ RPC: get-interface-information
     up
     </oper-status>
     <local-index>
-    134
+    135
     </local-index>
     <snmp-index>
-    509
+    507
     </snmp-index>
     <if-type>
     Software-Pseudo
@@ -3016,416 +3023,10 @@ RPC: get-interface-information
     up
     </oper-status>
     <local-index>
-    136
-    </local-index>
-    <snmp-index>
-    511
-    </snmp-index>
-    <if-type>
-    FTI
-    </if-type>
-    <link-level-type>
-    Flexible-tunnel-Interface
-    </link-level-type>
-    <mtu>
-    Unlimited
-    </mtu>
-    <speed>
-    Unlimited
-    </speed>
-    <if-device-flags>
-    <ifdf-present/>
-    <ifdf-running/>
-    </if-device-flags>
-    <ifd-specific-config-flags>
-    <internal-flags>
-    0x200
-    </internal-flags>
-    </ifd-specific-config-flags>
-    <if-config-flags>
-    <iff-snmp-traps/>
-    </if-config-flags>
-    <link-type>
-    Full-Duplex
-    </link-type>
-    <if-media-flags>
-    <ifmf-none/>
-    </if-media-flags>
-    <interface-flapped seconds="0">
-    Never
-    </interface-flapped>
-    <traffic-statistics style="brief">
-    <input-packets>
-    0
-    </input-packets>
-    <output-packets>
-    0
-    </output-packets>
-    </traffic-statistics>
-    </physical-interface>
-    <physical-interface>
-    <name>
-    fti1
-    </name>
-    <admin-status format="Enabled">
-    up
-    </admin-status>
-    <oper-status>
-    up
-    </oper-status>
-    <local-index>
     137
     </local-index>
     <snmp-index>
-    512
-    </snmp-index>
-    <if-type>
-    FTI
-    </if-type>
-    <link-level-type>
-    Flexible-tunnel-Interface
-    </link-level-type>
-    <mtu>
-    Unlimited
-    </mtu>
-    <speed>
-    Unlimited
-    </speed>
-    <if-device-flags>
-    <ifdf-present/>
-    <ifdf-running/>
-    </if-device-flags>
-    <ifd-specific-config-flags>
-    <internal-flags>
-    0x200
-    </internal-flags>
-    </ifd-specific-config-flags>
-    <if-config-flags>
-    <iff-snmp-traps/>
-    </if-config-flags>
-    <link-type>
-    Full-Duplex
-    </link-type>
-    <if-media-flags>
-    <ifmf-none/>
-    </if-media-flags>
-    <interface-flapped seconds="0">
-    Never
-    </interface-flapped>
-    <traffic-statistics style="brief">
-    <input-packets>
-    0
-    </input-packets>
-    <output-packets>
-    0
-    </output-packets>
-    </traffic-statistics>
-    </physical-interface>
-    <physical-interface>
-    <name>
-    fti2
-    </name>
-    <admin-status format="Enabled">
-    up
-    </admin-status>
-    <oper-status>
-    up
-    </oper-status>
-    <local-index>
-    138
-    </local-index>
-    <snmp-index>
-    513
-    </snmp-index>
-    <if-type>
-    FTI
-    </if-type>
-    <link-level-type>
-    Flexible-tunnel-Interface
-    </link-level-type>
-    <mtu>
-    Unlimited
-    </mtu>
-    <speed>
-    Unlimited
-    </speed>
-    <if-device-flags>
-    <ifdf-present/>
-    <ifdf-running/>
-    </if-device-flags>
-    <ifd-specific-config-flags>
-    <internal-flags>
-    0x200
-    </internal-flags>
-    </ifd-specific-config-flags>
-    <if-config-flags>
-    <iff-snmp-traps/>
-    </if-config-flags>
-    <link-type>
-    Full-Duplex
-    </link-type>
-    <if-media-flags>
-    <ifmf-none/>
-    </if-media-flags>
-    <interface-flapped seconds="0">
-    Never
-    </interface-flapped>
-    <traffic-statistics style="brief">
-    <input-packets>
-    0
-    </input-packets>
-    <output-packets>
-    0
-    </output-packets>
-    </traffic-statistics>
-    </physical-interface>
-    <physical-interface>
-    <name>
-    fti3
-    </name>
-    <admin-status format="Enabled">
-    up
-    </admin-status>
-    <oper-status>
-    up
-    </oper-status>
-    <local-index>
-    139
-    </local-index>
-    <snmp-index>
-    514
-    </snmp-index>
-    <if-type>
-    FTI
-    </if-type>
-    <link-level-type>
-    Flexible-tunnel-Interface
-    </link-level-type>
-    <mtu>
-    Unlimited
-    </mtu>
-    <speed>
-    Unlimited
-    </speed>
-    <if-device-flags>
-    <ifdf-present/>
-    <ifdf-running/>
-    </if-device-flags>
-    <ifd-specific-config-flags>
-    <internal-flags>
-    0x200
-    </internal-flags>
-    </ifd-specific-config-flags>
-    <if-config-flags>
-    <iff-snmp-traps/>
-    </if-config-flags>
-    <link-type>
-    Full-Duplex
-    </link-type>
-    <if-media-flags>
-    <ifmf-none/>
-    </if-media-flags>
-    <interface-flapped seconds="0">
-    Never
-    </interface-flapped>
-    <traffic-statistics style="brief">
-    <input-packets>
-    0
-    </input-packets>
-    <output-packets>
-    0
-    </output-packets>
-    </traffic-statistics>
-    </physical-interface>
-    <physical-interface>
-    <name>
-    fti4
-    </name>
-    <admin-status format="Enabled">
-    up
-    </admin-status>
-    <oper-status>
-    up
-    </oper-status>
-    <local-index>
-    140
-    </local-index>
-    <snmp-index>
-    515
-    </snmp-index>
-    <if-type>
-    FTI
-    </if-type>
-    <link-level-type>
-    Flexible-tunnel-Interface
-    </link-level-type>
-    <mtu>
-    Unlimited
-    </mtu>
-    <speed>
-    Unlimited
-    </speed>
-    <if-device-flags>
-    <ifdf-present/>
-    <ifdf-running/>
-    </if-device-flags>
-    <ifd-specific-config-flags>
-    <internal-flags>
-    0x200
-    </internal-flags>
-    </ifd-specific-config-flags>
-    <if-config-flags>
-    <iff-snmp-traps/>
-    </if-config-flags>
-    <link-type>
-    Full-Duplex
-    </link-type>
-    <if-media-flags>
-    <ifmf-none/>
-    </if-media-flags>
-    <interface-flapped seconds="0">
-    Never
-    </interface-flapped>
-    <traffic-statistics style="brief">
-    <input-packets>
-    0
-    </input-packets>
-    <output-packets>
-    0
-    </output-packets>
-    </traffic-statistics>
-    </physical-interface>
-    <physical-interface>
-    <name>
-    fti5
-    </name>
-    <admin-status format="Enabled">
-    up
-    </admin-status>
-    <oper-status>
-    up
-    </oper-status>
-    <local-index>
-    141
-    </local-index>
-    <snmp-index>
-    516
-    </snmp-index>
-    <if-type>
-    FTI
-    </if-type>
-    <link-level-type>
-    Flexible-tunnel-Interface
-    </link-level-type>
-    <mtu>
-    Unlimited
-    </mtu>
-    <speed>
-    Unlimited
-    </speed>
-    <if-device-flags>
-    <ifdf-present/>
-    <ifdf-running/>
-    </if-device-flags>
-    <ifd-specific-config-flags>
-    <internal-flags>
-    0x200
-    </internal-flags>
-    </ifd-specific-config-flags>
-    <if-config-flags>
-    <iff-snmp-traps/>
-    </if-config-flags>
-    <link-type>
-    Full-Duplex
-    </link-type>
-    <if-media-flags>
-    <ifmf-none/>
-    </if-media-flags>
-    <interface-flapped seconds="0">
-    Never
-    </interface-flapped>
-    <traffic-statistics style="brief">
-    <input-packets>
-    0
-    </input-packets>
-    <output-packets>
-    0
-    </output-packets>
-    </traffic-statistics>
-    </physical-interface>
-    <physical-interface>
-    <name>
-    fti6
-    </name>
-    <admin-status format="Enabled">
-    up
-    </admin-status>
-    <oper-status>
-    up
-    </oper-status>
-    <local-index>
-    142
-    </local-index>
-    <snmp-index>
-    517
-    </snmp-index>
-    <if-type>
-    FTI
-    </if-type>
-    <link-level-type>
-    Flexible-tunnel-Interface
-    </link-level-type>
-    <mtu>
-    Unlimited
-    </mtu>
-    <speed>
-    Unlimited
-    </speed>
-    <if-device-flags>
-    <ifdf-present/>
-    <ifdf-running/>
-    </if-device-flags>
-    <ifd-specific-config-flags>
-    <internal-flags>
-    0x200
-    </internal-flags>
-    </ifd-specific-config-flags>
-    <if-config-flags>
-    <iff-snmp-traps/>
-    </if-config-flags>
-    <link-type>
-    Full-Duplex
-    </link-type>
-    <if-media-flags>
-    <ifmf-none/>
-    </if-media-flags>
-    <interface-flapped seconds="0">
-    Never
-    </interface-flapped>
-    <traffic-statistics style="brief">
-    <input-packets>
-    0
-    </input-packets>
-    <output-packets>
-    0
-    </output-packets>
-    </traffic-statistics>
-    </physical-interface>
-    <physical-interface>
-    <name>
-    fti7
-    </name>
-    <admin-status format="Enabled">
-    up
-    </admin-status>
-    <oper-status>
-    up
-    </oper-status>
-    <local-index>
-    143
-    </local-index>
-    <snmp-index>
-    518
+    509
     </snmp-index>
     <if-type>
     FTI
@@ -3517,21 +3118,21 @@ RPC: get-interface-information
     0x4
     </internal-flags>
     </if-media-flags>
-    <current-physical-address format="MAC 50:00:00:04:00:00">
-    50:00:00:04:00:00
+    <current-physical-address format="MAC 50:00:00:02:00:00">
+    50:00:00:02:00:00
     </current-physical-address>
-    <hardware-physical-address format="MAC 50:00:00:04:00:00">
-    50:00:00:04:00:00
+    <hardware-physical-address format="MAC 50:00:00:02:00:00">
+    50:00:00:02:00:00
     </hardware-physical-address>
-    <interface-flapped seconds="4610">
-    2025-04-30 13:00:54 UTC (01:16:50 ago)
+    <interface-flapped seconds="4331">
+    2025-04-30 13:07:43 UTC (01:12:11 ago)
     </interface-flapped>
     <traffic-statistics style="brief">
     <input-packets>
-    4660
+    9535
     </input-packets>
     <output-packets>
-    4980
+    10443
     </output-packets>
     </traffic-statistics>
     <logical-interface>
@@ -3558,10 +3159,10 @@ RPC: get-interface-information
     </policer-overhead>
     <traffic-statistics style="brief">
     <input-packets>
-    4655
+    9526
     </input-packets>
     <output-packets>
-    4985
+    10444
     </output-packets>
     </traffic-statistics>
     <filter-information>
@@ -3574,10 +3175,10 @@ RPC: get-interface-information
     1500
     </mtu>
     <max-local-cache>
-    75000
+    100000
     </max-local-cache>
     <new-hold-limit>
-    75000
+    100000
     </new-hold-limit>
     <intf-curr-cnt>
     1
@@ -3599,13 +3200,13 @@ RPC: get-interface-information
     <ifaf-current-primary/>
     </ifa-flags>
     <ifa-destination>
-    192.168.1.0/30
+    192.168.2.0/30
     </ifa-destination>
     <ifa-local>
-    192.168.1.2
+    192.168.2.2
     </ifa-local>
     <ifa-broadcast>
-    192.168.1.3
+    192.168.2.3
     </ifa-broadcast>
     </interface-address>
     </address-family>
@@ -3617,10 +3218,10 @@ RPC: get-interface-information
     1500
     </mtu>
     <max-local-cache>
-    75000
+    100000
     </max-local-cache>
     <new-hold-limit>
-    75000
+    100000
     </new-hold-limit>
     <intf-curr-cnt>
     0
@@ -3645,13 +3246,11 @@ RPC: get-interface-information
     fe80::/64
     </ifa-destination>
     <ifa-local>
-    fe80::5200:ff:fe04:0
+    fe80::5200:ff:fe02:0
     </ifa-local>
-    <interface-address>
     <in6-addr-flags>
     <ifaf-none/>
     </in6-addr-flags>
-    </interface-address>
     </interface-address>
     </address-family>
     </logical-interface>
@@ -3766,10 +3365,10 @@ RPC: get-interface-information
     up
     </oper-status>
     <local-index>
-    132
+    133
     </local-index>
     <snmp-index>
-    507
+    505
     </snmp-index>
     <if-type>
     Ethernet
@@ -3798,11 +3397,11 @@ RPC: get-interface-information
     <if-media-flags>
     <ifmf-none/>
     </if-media-flags>
-    <current-physical-address format="MAC 2c:6b:f5:2a:f3:f0">
-    2c:6b:f5:2a:f3:f0
+    <current-physical-address format="MAC 2c:6b:f5:84:a8:f0">
+    2c:6b:f5:84:a8:f0
     </current-physical-address>
-    <hardware-physical-address format="MAC 2c:6b:f5:2a:f3:f0">
-    2c:6b:f5:2a:f3:f0
+    <hardware-physical-address format="MAC 2c:6b:f5:84:a8:f0">
+    2c:6b:f5:84:a8:f0
     </hardware-physical-address>
     <interface-flapped seconds="0">
     Never
@@ -3827,10 +3426,10 @@ RPC: get-interface-information
     up
     </oper-status>
     <local-index>
-    145
+    128
     </local-index>
     <snmp-index>
-    501
+    511
     </snmp-index>
     <if-type>
     Ethernet
@@ -3858,11 +3457,11 @@ RPC: get-interface-information
     <if-media-flags>
     <ifmf-none/>
     </if-media-flags>
-    <current-physical-address format="MAC 2c:6b:f5:2a:f3:c0">
-    2c:6b:f5:2a:f3:c0
+    <current-physical-address format="MAC 00:00:00:00:00:00">
+    00:00:00:00:00:00
     </current-physical-address>
-    <hardware-physical-address format="MAC 2c:6b:f5:2a:f3:c0">
-    2c:6b:f5:2a:f3:c0
+    <hardware-physical-address format="MAC 00:00:00:00:00:00">
+    00:00:00:00:00:00
     </hardware-physical-address>
     <interface-flapped seconds="0">
     Never
@@ -3880,10 +3479,10 @@ RPC: get-interface-information
     jsrv.1
     </name>
     <local-index>
-    325
+    323
     </local-index>
     <snmp-index>
-    502
+    512
     </snmp-index>
     <if-config-flags>
     <iff-up/>
@@ -3925,10 +3524,10 @@ RPC: get-interface-information
     1514
     </mtu>
     <max-local-cache>
-    75000
+    100000
     </max-local-cache>
     <new-hold-limit>
-    75000
+    100000
     </new-hold-limit>
     <intf-curr-cnt>
     0
@@ -4005,10 +3604,10 @@ RPC: get-interface-information
     </interface-flapped>
     <traffic-statistics style="brief">
     <input-packets>
-    6558
+    8546
     </input-packets>
     <output-packets>
-    6558
+    8546
     </output-packets>
     </traffic-statistics>
     <logical-interface>
@@ -4093,10 +3692,10 @@ RPC: get-interface-information
     </policer-overhead>
     <traffic-statistics style="brief">
     <input-packets>
-    6550
+    8538
     </input-packets>
     <output-packets>
-    6550
+    8538
     </output-packets>
     </traffic-statistics>
     <filter-information>
@@ -4196,10 +3795,10 @@ RPC: get-interface-information
     up
     </oper-status>
     <local-index>
-    144
+    138
     </local-index>
     <snmp-index>
-    519
+    510
     </snmp-index>
     <if-type>
     Software-Pseudo
@@ -4396,10 +3995,10 @@ RPC: get-interface-information
     up
     </oper-status>
     <local-index>
-    130
+    131
     </local-index>
     <snmp-index>
-    505
+    503
     </snmp-index>
     <if-type>
     Ethernet
@@ -4428,11 +4027,11 @@ RPC: get-interface-information
     <if-media-flags>
     <ifmf-none/>
     </if-media-flags>
-    <current-physical-address format="MAC 2c:6b:f5:2a:f3:b0">
-    2c:6b:f5:2a:f3:b0
+    <current-physical-address format="MAC 2c:6b:f5:84:a8:b0">
+    2c:6b:f5:84:a8:b0
     </current-physical-address>
-    <hardware-physical-address format="MAC 2c:6b:f5:2a:f3:b0">
-    2c:6b:f5:2a:f3:b0
+    <hardware-physical-address format="MAC 2c:6b:f5:84:a8:b0">
+    2c:6b:f5:84:a8:b0
     </hardware-physical-address>
     <interface-flapped seconds="0">
     Never
@@ -4457,10 +4056,10 @@ RPC: get-interface-information
     up
     </oper-status>
     <local-index>
-    131
+    132
     </local-index>
     <snmp-index>
-    506
+    504
     </snmp-index>
     <if-type>
     PPPoE
@@ -4502,10 +4101,10 @@ RPC: get-interface-information
     up
     </oper-status>
     <local-index>
-    135
+    136
     </local-index>
     <snmp-index>
-    510
+    508
     </snmp-index>
     <if-type>
     Software-Pseudo
@@ -4614,10 +4213,10 @@ RPC: get-interface-information
     up
     </oper-status>
     <local-index>
-    133
+    134
     </local-index>
     <snmp-index>
-    508
+    506
     </snmp-index>
     <if-type>
     Software-Pseudo
@@ -4667,21 +4266,21 @@ RPC: get-interface-information
 RPC: get-route-summary-information
 -------------------------------------------------------------------------------
 
-    <rpc-reply message-id="urn:uuid:6460a935-297f-43f0-a5fa-7cd6dfdd3c45">
+    <rpc-reply message-id="urn:uuid:edf3a1ae-3c01-40fb-95fe-95c22cb296ed">
     <route-summary-information format="xml">
-    <router-id>192.168.1.2</router-id>
+    <router-id>192.168.2.2</router-id>
     <routing-highwatermark>
     <rt-uniq-highwatermark>14</rt-uniq-highwatermark>
-    <rt-uniq-highwatermark-ts>2025-04-30 13:12:46</rt-uniq-highwatermark-ts>
+    <rt-uniq-highwatermark-ts>2025-04-30 13:14:02</rt-uniq-highwatermark-ts>
     <rt-uniq-tavg-watermark>0</rt-uniq-tavg-watermark>
     <rt-all-highwatermark>15</rt-all-highwatermark>
-    <rt-all-highwatermark-ts>2025-04-30 13:12:46</rt-all-highwatermark-ts>
+    <rt-all-highwatermark-ts>2025-04-30 13:14:02</rt-all-highwatermark-ts>
     <rt-all-tavg-watermark>0</rt-all-tavg-watermark>
     <rt-fib-highwatermark>2</rt-fib-highwatermark>
-    <rt-fib-highwatermark-ts>2025-04-30 13:12:47</rt-fib-highwatermark-ts>
+    <rt-fib-highwatermark-ts>2025-04-30 13:14:48</rt-fib-highwatermark-ts>
     <rt-fib-tavg-watermark>0</rt-fib-tavg-watermark>
     <rt-vrf-highwatermark>0</rt-vrf-highwatermark>
-    <rt-vrf-highwatermark-ts>2025-04-30 13:11:29</rt-vrf-highwatermark-ts>
+    <rt-vrf-highwatermark-ts>2025-04-30 13:11:06</rt-vrf-highwatermark-ts>
     </routing-highwatermark>
     <route-table>
     <table-name>inet.0</table-name>
@@ -4690,6 +4289,9 @@ RPC: get-route-summary-information
     <active-route-count>3</active-route-count>
     <holddown-route-count>0</holddown-route-count>
     <hidden-route-count>0</hidden-route-count>
+    <prefix-max>1048576</prefix-max>
+    <prefix-threshold>1048576</prefix-threshold>
+    <prefix-label>destinations</prefix-label>
     <protocols>
     <protocol-name>Direct</protocol-name>
     <protocol-route-count>1</protocol-route-count>
@@ -4713,6 +4315,9 @@ RPC: get-route-summary-information
     <active-route-count>2</active-route-count>
     <holddown-route-count>0</holddown-route-count>
     <hidden-route-count>0</hidden-route-count>
+    <prefix-max>1048576</prefix-max>
+    <prefix-threshold>1048576</prefix-threshold>
+    <prefix-label>destinations</prefix-label>
     <protocols>
     <protocol-name>Local</protocol-name>
     <protocol-route-count>1</protocol-route-count>
@@ -4731,55 +4336,43 @@ RPC: get-route-summary-information
 RPC: get-commit-information
 -------------------------------------------------------------------------------
 
-    <rpc-reply message-id="urn:uuid:6ba67407-6400-4103-9930-c90f85952802">
+    <rpc-reply message-id="urn:uuid:be3af70d-ed70-4cc6-a199-25d260ae926e">
     <commit-information format="xml">
     <commit-history>
     <sequence-number>0</sequence-number>
     <user>root</user>
     <client>cli</client>
-    <date-time seconds="1745891780">2025-04-29 01:56:20 UTC</date-time>
+    <date-time seconds="1745329476">2025-04-22 13:44:36 UTC</date-time>
     </commit-history>
     <commit-history>
     <sequence-number>1</sequence-number>
     <user>root</user>
     <client>cli</client>
-    <date-time seconds="1745410896">2025-04-23 12:21:36 UTC</date-time>
+    <date-time seconds="1745329215">2025-04-22 13:40:15 UTC</date-time>
     </commit-history>
     <commit-history>
     <sequence-number>2</sequence-number>
     <user>root</user>
     <client>cli</client>
-    <date-time seconds="1745409675">2025-04-23 12:01:15 UTC</date-time>
+    <date-time seconds="1745328953">2025-04-22 13:35:53 UTC</date-time>
     </commit-history>
     <commit-history>
     <sequence-number>3</sequence-number>
     <user>root</user>
-    <client>cli</client>
-    <date-time seconds="1745409391">2025-04-23 11:56:31 UTC</date-time>
+    <client>button</client>
+    <date-time seconds="1745328547">2025-04-22 13:29:07 UTC</date-time>
     </commit-history>
     <commit-history>
     <sequence-number>4</sequence-number>
     <user>root</user>
-    <client>cli</client>
-    <date-time seconds="1745409316">2025-04-23 11:55:16 UTC</date-time>
+    <client>other</client>
+    <date-time seconds="1745328191">2025-04-22 13:23:11 UTC</date-time>
     </commit-history>
     <commit-history>
     <sequence-number>5</sequence-number>
     <user>root</user>
-    <client>button</client>
-    <date-time seconds="1745408757">2025-04-23 11:45:57 UTC</date-time>
-    </commit-history>
-    <commit-history>
-    <sequence-number>6</sequence-number>
-    <user>root</user>
     <client>other</client>
-    <date-time seconds="1745408496">2025-04-23 11:41:36 UTC</date-time>
-    </commit-history>
-    <commit-history>
-    <sequence-number>7</sequence-number>
-    <user>root</user>
-    <client>other</client>
-    <date-time seconds="1734634163">2024-12-19 18:49:23 UTC</date-time>
+    <date-time seconds="1734596756">2024-12-19 08:25:56 UTC</date-time>
     </commit-history>
     </commit-information>
     </rpc-reply>
@@ -4788,9 +4381,9 @@ RPC: get-commit-information
 RPC: get-commit-revision-information
 -------------------------------------------------------------------------------
 
-    <rpc-reply message-id="urn:uuid:2501163d-c093-4a34-8912-78a856a8d78f">
+    <rpc-reply message-id="urn:uuid:1bd3dee3-93a0-4e16-9851-7988611f18c1">
     <commit-revision-information format="xml">
-    <revision>re0-1745891709-8</revision>
+    <revision>re0-1745329455-6</revision>
     </commit-revision-information>
     </rpc-reply>
 
@@ -4798,7 +4391,7 @@ RPC: get-commit-revision-information
 RPC: get-alarm-information
 -------------------------------------------------------------------------------
 
-    <rpc-reply message-id="urn:uuid:aaadbdd8-9d91-4e5a-8f08-5399d83f938a">
+    <rpc-reply message-id="urn:uuid:b97a30dc-b23e-405a-a84f-dc7a0d64c456">
     <alarm-information format="xml">
     <alarm-summary>
     <no-active-alarms/>
