@@ -9,7 +9,7 @@ Compiled Mon 08-Aug-22 15:22 by mcpre
 
 ROM: Bootstrap program is IOSv
 
-R1 uptime is 1 hour, 24 minutes
+R1 uptime is 1 hour, 34 minutes
 System returned to ROM by reload
 System image file is "flash0:/vios-adventerprisek9-m"
 Last reload reason: Unknown reason
@@ -63,19 +63,19 @@ GigabitEthernet0/0 is up, line protocol is up
   Auto Duplex, Auto Speed, link type is auto, media type is RJ45
   output flow-control is unsupported, input flow-control is unsupported
   ARP type: ARPA, ARP Timeout 04:00:00
-  Last input 00:13:42, output 00:00:02, output hang never
+  Last input 00:03:23, output 00:00:01, output hang never
   Last clearing of "show interface" counters never
   Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
   Queueing strategy: fifo
   Output queue: 0/40 (size/max)
   5 minute input rate 0 bits/sec, 0 packets/sec
   5 minute output rate 0 bits/sec, 0 packets/sec
-     818 packets input, 119643 bytes, 0 no buffer
+     1535 packets input, 240414 bytes, 0 no buffer
      Received 0 broadcasts (0 IP multicasts)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     1984 packets output, 213125 bytes, 0 underruns
+     2826 packets output, 304480 bytes, 0 underruns
      0 output errors, 0 collisions, 1 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -96,14 +96,14 @@ GigabitEthernet0/1 is up, line protocol is up
   Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
   Queueing strategy: fifo
   Output queue: 0/40 (size/max)
-  5 minute input rate 14000 bits/sec, 14 packets/sec
-  5 minute output rate 14000 bits/sec, 13 packets/sec
-     83385 packets input, 11677910 bytes, 0 no buffer
+  5 minute input rate 16000 bits/sec, 12 packets/sec
+  5 minute output rate 15000 bits/sec, 11 packets/sec
+     91088 packets input, 12726987 bytes, 0 no buffer
      Received 0 broadcasts (0 IP multicasts)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     80308 packets output, 12644124 bytes, 0 underruns
+     87604 packets output, 13797097 bytes, 0 underruns
      0 output errors, 0 collisions, 1 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -119,19 +119,19 @@ GigabitEthernet0/2 is up, line protocol is up
   Auto Duplex, Auto Speed, link type is auto, media type is RJ45
   output flow-control is unsupported, input flow-control is unsupported
   ARP type: ARPA, ARP Timeout 04:00:00
-  Last input 00:01:49, output 00:00:05, output hang never
+  Last input 00:01:47, output 00:00:00, output hang never
   Last clearing of "show interface" counters never
   Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
   Queueing strategy: fifo
   Output queue: 0/40 (size/max)
   5 minute input rate 0 bits/sec, 0 packets/sec
   5 minute output rate 0 bits/sec, 0 packets/sec
-     7175 packets input, 1241471 bytes, 0 no buffer
+     7196 packets input, 1245270 bytes, 0 no buffer
      Received 0 broadcasts (0 IP multicasts)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     7622 packets output, 576903 bytes, 0 underruns
+     7774 packets output, 594790 bytes, 0 underruns
      0 output errors, 0 collisions, 1 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -147,19 +147,19 @@ GigabitEthernet0/3 is up, line protocol is up
   Auto Duplex, Auto Speed, link type is auto, media type is RJ45
   output flow-control is unsupported, input flow-control is unsupported
   ARP type: ARPA, ARP Timeout 04:00:00
-  Last input 00:00:47, output 00:00:02, output hang never
+  Last input 00:00:20, output 00:00:01, output hang never
   Last clearing of "show interface" counters never
   Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
   Queueing strategy: fifo
   Output queue: 0/40 (size/max)
   5 minute input rate 0 bits/sec, 0 packets/sec
   5 minute output rate 0 bits/sec, 0 packets/sec
-     2901 packets input, 476960 bytes, 0 no buffer
+     3473 packets input, 569525 bytes, 0 no buffer
      Received 0 broadcasts (0 IP multicasts)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     3929 packets output, 298321 bytes, 0 underruns
+     4614 packets output, 347351 bytes, 0 underruns
      0 output errors, 0 collisions, 1 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -227,7 +227,7 @@ Entry address(es):
   IP address: 192.168.3.2
 Platform: Cisco ,  Capabilities: Router Switch IGMP 
 Interface: GigabitEthernet0/3,  Port ID (outgoing port): GigabitEthernet0/0
-Holdtime : 131 sec
+Holdtime : 158 sec
 
 Version :
 Cisco IOS Software, vios_l2 Software (vios_l2-ADVENTERPRISEK9-M), Experimental Version 15.2(20200924:215240) [sweickge-sep24-2020-l2iol-release 135]
@@ -247,7 +247,7 @@ Total cdp entries displayed : 1
 % LLDP is not enabled
 
 ############# show clock ###########
-*14:02:17.818 UTC Wed Apr 30 2025
+*14:11:47.374 UTC Wed Apr 30 2025
 
 ############# show users ###########
 Line       User       Host(s)              Idle       Location
@@ -289,35 +289,35 @@ Router memory: 1022Mb, 1071907840 bytes
 ############# show int stat ###########
 GigabitEthernet0/0
           Switching path    Pkts In   Chars In   Pkts Out  Chars Out
-               Processor          9       1950       1179     122622
-             Route cache        811     117833        812      91231
-                   Total        820     119783       1991     213853
+               Processor         10       2010       1312     136324
+             Route cache       1528     238614       1522     169050
+                   Total       1538     240624       2834     305374
 GigabitEthernet0/1
           Switching path    Pkts In   Chars In   Pkts Out  Chars Out
-               Processor      21670    1605823      17835    1528795
-             Route cache      61977   10095441      62728   11155339
-                   Total      83647   11701264      80563   12684134
+               Processor      24209    1789368      19951    1723670
+             Route cache      67150   10962741      67917   12115003
+                   Total      91359   12752109      87868   13838673
 GigabitEthernet0/2
           Switching path    Pkts In   Chars In   Pkts Out  Chars Out
-               Processor         16       2370       1188     123222
-             Route cache       7159    1239101       6440     454167
-                   Total       7175    1241471       7628     577389
+               Processor         18       2490       1322     136984
+             Route cache       7178    1242780       6457     458202
+                   Total       7196    1245270       7779     595186
 GigabitEthernet0/3
           Switching path    Pkts In   Chars In   Pkts Out  Chars Out
-               Processor        113      36963       1170     121703
-             Route cache       2789     440378       2764     177014
-                   Total       2902     477341       3934     298717
+               Processor        126      41019       1302     135345
+             Route cache       3347     528506       3317     212402
+                   Total       3473     569525       4619     347747
 
 ############# show arp ###########
 Protocol  Address          Age (min)  Hardware Addr   Type   Interface
 Internet  10.0.2.1                0   001a.8c13.0423  ARPA   GigabitEthernet0/1
-Internet  10.0.2.3                3   a6bf.35c4.011b  ARPA   GigabitEthernet0/1
-Internet  10.0.2.10               0   d2ee.cd81.e178  ARPA   GigabitEthernet0/1
+Internet  10.0.2.3                9   a6bf.35c4.011b  ARPA   GigabitEthernet0/1
+Internet  10.0.2.10               1   d2ee.cd81.e178  ARPA   GigabitEthernet0/1
 Internet  10.0.2.20               -   5000.0001.0001  ARPA   GigabitEthernet0/1
 Internet  192.168.1.1             -   5000.0001.0000  ARPA   GigabitEthernet0/0
-Internet  192.168.1.2            13   5000.0004.0000  ARPA   GigabitEthernet0/0
+Internet  192.168.1.2             3   5000.0004.0000  ARPA   GigabitEthernet0/0
 Internet  192.168.2.1             -   5000.0001.0002  ARPA   GigabitEthernet0/2
-Internet  192.168.2.2             2   5000.0002.0000  ARPA   GigabitEthernet0/2
+Internet  192.168.2.2             1   5000.0002.0000  ARPA   GigabitEthernet0/2
 Internet  192.168.3.1             -   5000.0001.0003  ARPA   GigabitEthernet0/3
-Internet  192.168.3.2            84   5000.0003.0000  ARPA   GigabitEthernet0/3
+Internet  192.168.3.2            93   5000.0003.0000  ARPA   GigabitEthernet0/3
 
