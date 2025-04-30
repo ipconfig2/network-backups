@@ -1,0 +1,323 @@
+OUTPUT FROM SHOW COMMANDS for: cisco_router1
+
+############# show version ###########
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.9(3)M6, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2022 by Cisco Systems, Inc.
+Compiled Mon 08-Aug-22 15:22 by mcpre
+
+
+ROM: Bootstrap program is IOSv
+
+R1 uptime is 1 hour, 24 minutes
+System returned to ROM by reload
+System image file is "flash0:/vios-adventerprisek9-m"
+Last reload reason: Unknown reason
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+Cisco IOSv (revision 1.0) with  with 984321K/62464K bytes of memory.
+Processor board ID 9MBZ9589IEFMKJSGOUZVT
+4 Gigabit Ethernet interfaces
+DRAM configuration is 72 bits wide with parity disabled.
+256K bytes of non-volatile configuration memory.
+2097152K bytes of ATA System CompactFlash 0 (Read/Write)
+0K bytes of ATA CompactFlash 1 (Read/Write)
+0K bytes of ATA CompactFlash 2 (Read/Write)
+0K bytes of ATA CompactFlash 3 (Read/Write)
+
+
+
+Configuration register is 0x0
+
+############# show ip interface brief ###########
+Interface                  IP-Address      OK? Method Status                Protocol
+GigabitEthernet0/0         192.168.1.1     YES NVRAM  up                    up      
+GigabitEthernet0/1         10.0.2.20       YES NVRAM  up                    up      
+GigabitEthernet0/2         192.168.2.1     YES NVRAM  up                    up      
+GigabitEthernet0/3         192.168.3.1     YES NVRAM  up                    up
+
+############# show interfaces ###########
+GigabitEthernet0/0 is up, line protocol is up 
+  Hardware is iGbE, address is 5000.0001.0000 (bia 5000.0001.0000)
+  Internet address is 192.168.1.1/30
+  MTU 1500 bytes, BW 1000000 Kbit/sec, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto Duplex, Auto Speed, link type is auto, media type is RJ45
+  output flow-control is unsupported, input flow-control is unsupported
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:13:42, output 00:00:02, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     818 packets input, 119643 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     1984 packets output, 213125 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet0/1 is up, line protocol is up 
+  Hardware is iGbE, address is 5000.0001.0001 (bia 5000.0001.0001)
+  Internet address is 10.0.2.20/24
+  MTU 1500 bytes, BW 1000000 Kbit/sec, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto Duplex, Auto Speed, link type is auto, media type is RJ45
+  output flow-control is unsupported, input flow-control is unsupported
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 14000 bits/sec, 14 packets/sec
+  5 minute output rate 14000 bits/sec, 13 packets/sec
+     83385 packets input, 11677910 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     80308 packets output, 12644124 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet0/2 is up, line protocol is up 
+  Hardware is iGbE, address is 5000.0001.0002 (bia 5000.0001.0002)
+  Internet address is 192.168.2.1/30
+  MTU 1500 bytes, BW 1000000 Kbit/sec, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto Duplex, Auto Speed, link type is auto, media type is RJ45
+  output flow-control is unsupported, input flow-control is unsupported
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:01:49, output 00:00:05, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     7175 packets input, 1241471 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     7622 packets output, 576903 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet0/3 is up, line protocol is up 
+  Hardware is iGbE, address is 5000.0001.0003 (bia 5000.0001.0003)
+  Internet address is 192.168.3.1/30
+  MTU 1500 bytes, BW 1000000 Kbit/sec, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto Duplex, Auto Speed, link type is auto, media type is RJ45
+  output flow-control is unsupported, input flow-control is unsupported
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:47, output 00:00:02, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     2901 packets input, 476960 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     3929 packets output, 298321 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+
+############# show ip route ###########
+Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route, H - NHRP, l - LISP
+       a - application route
+       + - replicated route, % - next hop override, p - overrides from PfR
+
+Gateway of last resort is 10.0.2.1 to network 0.0.0.0
+
+S*    0.0.0.0/0 [1/0] via 10.0.2.1
+      10.0.0.0/8 is variably subnetted, 2 subnets, 2 masks
+C        10.0.2.0/24 is directly connected, GigabitEthernet0/1
+L        10.0.2.20/32 is directly connected, GigabitEthernet0/1
+      192.168.1.0/24 is variably subnetted, 2 subnets, 2 masks
+C        192.168.1.0/30 is directly connected, GigabitEthernet0/0
+L        192.168.1.1/32 is directly connected, GigabitEthernet0/0
+      192.168.2.0/24 is variably subnetted, 2 subnets, 2 masks
+C        192.168.2.0/30 is directly connected, GigabitEthernet0/2
+L        192.168.2.1/32 is directly connected, GigabitEthernet0/2
+      192.168.3.0/24 is variably subnetted, 2 subnets, 2 masks
+C        192.168.3.0/30 is directly connected, GigabitEthernet0/3
+L        192.168.3.1/32 is directly connected, GigabitEthernet0/3
+
+############# show ip protocols ###########
+*** IP Routing is NSF aware ***
+
+Routing Protocol is "application"
+  Sending updates every 0 seconds
+  Invalid after 0 seconds, hold down 0, flushed after 0
+  Outgoing update filter list for all interfaces is not set
+  Incoming update filter list for all interfaces is not set
+  Maximum path: 32
+  Routing for Networks:
+  Routing Information Sources:
+    Gateway         Distance      Last Update
+  Distance: (default is 4)
+
+Routing Protocol is "ospf 1"
+  Outgoing update filter list for all interfaces is not set
+  Incoming update filter list for all interfaces is not set
+  Router ID 1.1.1.1
+  Number of areas in this router is 1. 1 normal 0 stub 0 nssa
+  Maximum path: 4
+  Routing for Networks:
+    10.0.2.0 0.0.0.255 area 0
+    192.168.0.0 0.0.255.255 area 0
+  Routing Information Sources:
+    Gateway         Distance      Last Update
+  Distance: (default is 110)
+
+############# show cdp neighbors detail ###########
+-------------------------
+Device ID: SW1.HoldenWeber.com
+Entry address(es): 
+  IP address: 192.168.3.2
+Platform: Cisco ,  Capabilities: Router Switch IGMP 
+Interface: GigabitEthernet0/3,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 131 sec
+
+Version :
+Cisco IOS Software, vios_l2 Software (vios_l2-ADVENTERPRISEK9-M), Experimental Version 15.2(20200924:215240) [sweickge-sep24-2020-l2iol-release 135]
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Tue 29-Sep-20 11:53 by sweickge
+
+advertisement version: 2
+VTP Management Domain: ''
+Duplex: full
+Management address(es): 
+  IP address: 192.168.3.2
+
+
+Total cdp entries displayed : 1
+
+############# show lldp neighbors detail ###########
+% LLDP is not enabled
+
+############# show clock ###########
+*14:02:17.818 UTC Wed Apr 30 2025
+
+############# show users ###########
+Line       User       Host(s)              Idle       Location
+*578 vty 0     root       idle                 00:00:00 10.0.2.10
+
+  Interface    User               Mode         Idle     Peer Address
+
+############# show boot ###########
+BOOT variable does not exist
+CONFIG_FILE variable does not exist
+BOOTLDR variable does not exist
+WARM_REBOOT variable does not exist
+Configuration register is 0x0
+
+IOSv GRUB info:
+
+GRUB multiboot info:
+  IOMEM percent       '25'
+  Boot loader         'GRUB 2.00'
+  Command line        '/vios-adventerprisek9-m'
+  Memory size         1022Mb, low 639K, high 1047424K
+  Multiboot info      0x06A6EAF0, flags 0x00000247
+  Boot device         0x8000FFFF
+  Memory map          0x06A6ED4E (168 bytes)
+    0x00000000 .. 0x0009FBFF (     639K, available)
+    0x0009FC00 .. 0x0009FFFF (       1K, reserved)
+    0x000F0000 .. 0x000FFFFF (      64K, reserved)
+    0x00100000 .. 0x3FFDFFFF ( 1047424K, available)
+    0x3FFE0000 .. 0x3FFFFFFF (     128K, reserved)
+    0xFEFFC000 .. 0xFEFFFFFF (      16K, reserved)
+    0xFFFC0000 .. 0xFFFFFFFF (     256K, reserved)
+Linker:
+  _initdata_start     0x7DF5E10
+  _data1_start        0x8BBDEC0
+  _initdata_end       0x8BBDEBC
+
+Router memory: 1022Mb, 1071907840 bytes
+
+############# show int stat ###########
+GigabitEthernet0/0
+          Switching path    Pkts In   Chars In   Pkts Out  Chars Out
+               Processor          9       1950       1179     122622
+             Route cache        811     117833        812      91231
+                   Total        820     119783       1991     213853
+GigabitEthernet0/1
+          Switching path    Pkts In   Chars In   Pkts Out  Chars Out
+               Processor      21670    1605823      17835    1528795
+             Route cache      61977   10095441      62728   11155339
+                   Total      83647   11701264      80563   12684134
+GigabitEthernet0/2
+          Switching path    Pkts In   Chars In   Pkts Out  Chars Out
+               Processor         16       2370       1188     123222
+             Route cache       7159    1239101       6440     454167
+                   Total       7175    1241471       7628     577389
+GigabitEthernet0/3
+          Switching path    Pkts In   Chars In   Pkts Out  Chars Out
+               Processor        113      36963       1170     121703
+             Route cache       2789     440378       2764     177014
+                   Total       2902     477341       3934     298717
+
+############# show arp ###########
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  10.0.2.1                0   001a.8c13.0423  ARPA   GigabitEthernet0/1
+Internet  10.0.2.3                3   a6bf.35c4.011b  ARPA   GigabitEthernet0/1
+Internet  10.0.2.10               0   d2ee.cd81.e178  ARPA   GigabitEthernet0/1
+Internet  10.0.2.20               -   5000.0001.0001  ARPA   GigabitEthernet0/1
+Internet  192.168.1.1             -   5000.0001.0000  ARPA   GigabitEthernet0/0
+Internet  192.168.1.2            13   5000.0004.0000  ARPA   GigabitEthernet0/0
+Internet  192.168.2.1             -   5000.0001.0002  ARPA   GigabitEthernet0/2
+Internet  192.168.2.2             2   5000.0002.0000  ARPA   GigabitEthernet0/2
+Internet  192.168.3.1             -   5000.0001.0003  ARPA   GigabitEthernet0/3
+Internet  192.168.3.2            84   5000.0003.0000  ARPA   GigabitEthernet0/3
+
