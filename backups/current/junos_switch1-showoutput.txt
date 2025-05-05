@@ -4,7 +4,7 @@ OUTPUT FROM JUNOS RPC COMMANDS for: junos_switch1
 RPC: get-software-information
 -------------------------------------------------------------------------------
 
-    <rpc-reply message-id="urn:uuid:a55aae5e-0564-4cfa-bee3-356b1e3bd2ce">
+    <rpc-reply message-id="urn:uuid:ac5260f2-8b45-4723-b8a5-844e6aa231f9">
     <software-information format="xml">
     <host-name/>
     <product-model>ex9214</product-model>
@@ -453,45 +453,45 @@ RPC: get-software-information
 RPC: get-system-uptime-information
 -------------------------------------------------------------------------------
 
-    <rpc-reply message-id="urn:uuid:601642d2-247e-4caa-9536-52df9171961b">
+    <rpc-reply message-id="urn:uuid:9a625308-d924-4f87-b7bb-ddc28dfeeede">
     <system-uptime-information format="xml">
     <current-time>
-    <date-time seconds="1746451491">2025-05-05 13:24:51 UTC</date-time>
+    <date-time seconds="1746451708">2025-05-05 13:28:28 UTC</date-time>
     </current-time>
     <time-source>
      LOCAL CLOCK 
     </time-source>
     <system-booted-time>
     <date-time seconds="1746449034">2025-05-05 12:43:54 UTC</date-time>
-    <time-length seconds="2457">00:40:57</time-length>
+    <time-length seconds="2674">00:44:34</time-length>
     </system-booted-time>
     <protocols-started-time>
     <date-time seconds="1746450572">2025-05-05 13:09:32 UTC</date-time>
-    <time-length seconds="919">00:15:19</time-length>
+    <time-length seconds="1136">00:18:56</time-length>
     </protocols-started-time>
     <last-configured-time>
     <date-time seconds="1745329476">2025-04-22 13:44:36 UTC</date-time>
-    <time-length seconds="1122015">1w5d 23:40</time-length>
+    <time-length seconds="1122232">1w5d 23:43</time-length>
     <user>root</user>
     </last-configured-time>
     <uptime-information>
-    <date-time seconds="1746451507">
-    1:25PM
+    <date-time seconds="1746451709">
+    1:28PM
     </date-time>
-    <up-time seconds="2460">
-    41 mins
+    <up-time seconds="2700">
+    45 mins
     </up-time>
     <active-user-count format="0 users">
     0
     </active-user-count>
     <load-average-1>
-    4.80
+    1.60
     </load-average-1>
     <load-average-5>
-    3.62
+    2.82
     </load-average-5>
     <load-average-15>
-    3.94
+    3.54
     </load-average-15>
     <user-table>
     </user-table>
@@ -503,7 +503,7 @@ RPC: get-system-uptime-information
 RPC: get-interface-information
 -------------------------------------------------------------------------------
 
-    <rpc-reply message-id="urn:uuid:4c195fa5-cd2f-4c6e-9c57-4eef9592583e">
+    <rpc-reply message-id="urn:uuid:c586ccc8-fb2a-4971-a35c-862a24f09b16">
     <interface-information format="xml" style="normal">
     <physical-interface>
     <name>
@@ -726,15 +726,15 @@ RPC: get-interface-information
     <hardware-physical-address format="MAC 52:54:00:12:bd:fe">
     52:54:00:12:bd:fe
     </hardware-physical-address>
-    <interface-flapped seconds="1249">
-    2025-05-05 13:04:30 UTC (00:20:49 ago)
+    <interface-flapped seconds="1440">
+    2025-05-05 13:04:30 UTC (00:24:00 ago)
     </interface-flapped>
     <traffic-statistics style="brief">
     <input-packets>
-    2883
+    3138
     </input-packets>
     <output-packets>
-    1715
+    1967
     </output-packets>
     </traffic-statistics>
     <logical-interface>
@@ -761,10 +761,10 @@ RPC: get-interface-information
     </policer-overhead>
     <traffic-statistics style="brief">
     <input-packets>
-    1826
+    2081
     </input-packets>
     <output-packets>
-    1717
+    1968
     </output-packets>
     </traffic-statistics>
     <filter-information>
@@ -1089,15 +1089,15 @@ RPC: get-interface-information
     <hardware-physical-address format="MAC 50:00:00:02:00:00">
     50:00:00:02:00:00
     </hardware-physical-address>
-    <interface-flapped seconds="1254">
-    2025-05-05 13:04:30 UTC (00:20:54 ago)
+    <interface-flapped seconds="1440">
+    2025-05-05 13:04:30 UTC (00:24:00 ago)
     </interface-flapped>
     <traffic-statistics style="brief">
     <input-packets>
-    3403
+    4934
     </input-packets>
     <output-packets>
-    3594
+    5177
     </output-packets>
     </traffic-statistics>
     <logical-interface>
@@ -1124,10 +1124,10 @@ RPC: get-interface-information
     </policer-overhead>
     <traffic-statistics style="brief">
     <input-packets>
-    3461
+    4934
     </input-packets>
     <output-packets>
-    3653
+    5178
     </output-packets>
     </traffic-statistics>
     <filter-information>
@@ -1569,10 +1569,10 @@ RPC: get-interface-information
     </interface-flapped>
     <traffic-statistics style="brief">
     <input-packets>
-    2873
+    3335
     </input-packets>
     <output-packets>
-    2873
+    3335
     </output-packets>
     </traffic-statistics>
     <logical-interface>
@@ -1657,10 +1657,10 @@ RPC: get-interface-information
     </policer-overhead>
     <traffic-statistics style="brief">
     <input-packets>
-    2865
+    3327
     </input-packets>
     <output-packets>
-    2865
+    3327
     </output-packets>
     </traffic-statistics>
     <filter-information>
@@ -2231,7 +2231,7 @@ RPC: get-interface-information
 RPC: get-route-summary-information
 -------------------------------------------------------------------------------
 
-    <rpc-reply message-id="urn:uuid:4f3cf7ff-48f3-4c3d-97c5-cc61c00db0a6">
+    <rpc-reply message-id="urn:uuid:296b895e-640a-4e21-bbb4-9d36abee99c8">
     <route-summary-information format="xml">
     <router-id>192.168.2.2</router-id>
     <routing-highwatermark>
@@ -2301,7 +2301,7 @@ RPC: get-route-summary-information
 RPC: get-commit-information
 -------------------------------------------------------------------------------
 
-    <rpc-reply message-id="urn:uuid:f63ab24c-ce6f-4c7c-b91a-8b2e62b2daf9">
+    <rpc-reply message-id="urn:uuid:54c3186b-b25f-4684-a5bc-f69390d20f61">
     <commit-information format="xml">
     <commit-history>
     <sequence-number>0</sequence-number>
@@ -2346,7 +2346,7 @@ RPC: get-commit-information
 RPC: get-commit-revision-information
 -------------------------------------------------------------------------------
 
-    <rpc-reply message-id="urn:uuid:2f825a07-24b8-498a-a2ea-71c643d16971">
+    <rpc-reply message-id="urn:uuid:fb1f8ada-aa95-4d02-ba64-a03e9ba64932">
     <commit-revision-information format="xml">
     <revision>re0-1745329455-6</revision>
     </commit-revision-information>
@@ -2356,7 +2356,7 @@ RPC: get-commit-revision-information
 RPC: get-alarm-information
 -------------------------------------------------------------------------------
 
-    <rpc-reply message-id="urn:uuid:0e3e76e8-ad50-4a57-9578-2c833e6b61d5">
+    <rpc-reply message-id="urn:uuid:5cbb797c-a50d-46ef-91ad-5e891781cc0c">
     <alarm-information format="xml">
     <alarm-summary>
     <no-active-alarms/>
